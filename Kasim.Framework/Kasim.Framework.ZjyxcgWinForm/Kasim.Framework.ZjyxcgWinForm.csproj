@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D68A92B3-6960-4A04-AEF6-9146D3C536FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kasim.Framework.ZjyxcgWinForm</RootNamespace>
+    <AssemblyName>Kasim.Framework.ZjyxcgWinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>128X128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAccessToke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAccessToke.Designer.cs">
+      <DependentUpon>FrmAccessToke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckExist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckExist.Designer.cs">
+      <DependentUpon>FrmCheckExist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompany.Designer.cs">
+      <DependentUpon>FrmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDistribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDistribute.Designer.cs">
+      <DependentUpon>FrmDistribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHospital.Designer.cs">
+      <DependentUpon>FrmHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLog.Designer.cs">
+      <DependentUpon>FrmLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrder.Designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPopList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPopList.Designer.cs">
+      <DependentUpon>FrmPopList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcurecatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcurecatalog.Designer.cs">
+      <DependentUpon>FrmProcurecatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReturn.Designer.cs">
+      <DependentUpon>FrmReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWareHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWareHouse.Designer.cs">
+      <DependentUpon>FrmWareHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAccessToke.resx">
+      <DependentUpon>FrmAccessToke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckExist.resx">
+      <DependentUpon>FrmCheckExist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompany.resx">
+      <DependentUpon>FrmCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDistribute.resx">
+      <DependentUpon>FrmDistribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHospital.resx">
+      <DependentUpon>FrmHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLog.resx">
+      <DependentUpon>FrmLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPopList.resx">
+      <DependentUpon>FrmPopList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcurecatalog.resx">
+      <DependentUpon>FrmProcurecatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReturn.resx">
+      <DependentUpon>FrmReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWareHouse.resx">
+      <DependentUpon>FrmWareHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kasim.Framework.BLL\Kasim.Framework.BLL.csproj">
+      <Project>{4FE267E4-7DCB-4564-AAEC-827CBA8BD69A}</Project>
+      <Name>Kasim.Framework.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasim.Framework.Common\Kasim.Framework.Common.csproj">
+      <Project>{E5F06B99-5EDF-41AB-9B71-EC08609EDD3B}</Project>
+      <Name>Kasim.Framework.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasim.Framework.Entity\Kasim.Framework.Entity.csproj">
+      <Project>{0218DA78-FB90-4B7E-AB37-3295F34886BC}</Project>
+      <Name>Kasim.Framework.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasim.Framework.Factory\Kasim.Framework.Factory.csproj">
+      <Project>{444b441f-5d30-4588-8763-c2c2476762e1}</Project>
+      <Name>Kasim.Framework.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasim.Framework.IBLL\Kasim.Framework.IBLL.csproj">
+      <Project>{4B11248C-D480-403E-9DF7-4C3C5E14050E}</Project>
+      <Name>Kasim.Framework.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasim.Framework.MySQLDAL\Kasim.Framework.MySQLDAL.csproj">
+      <Project>{e2c3c97c-6da6-4b95-a324-37937f113ef6}</Project>
+      <Name>Kasim.Framework.MySQLDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="128X128.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

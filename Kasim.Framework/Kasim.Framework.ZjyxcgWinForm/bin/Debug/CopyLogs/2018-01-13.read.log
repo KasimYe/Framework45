@@ -1,0 +1,70 @@
+
+[INFO] [3]
+[12:21:40,757] [2018-01-13 12:21:40,754]
+{"returnCode":4,"successList":"[]","returnMsg":"令牌无效，请重新获取令牌","errorList":"[]"}
+
+[INFO] [3]
+[12:21:41,203] [2018-01-13 12:21:41,203]
+{"dataList":"[]","returnCode":10,"returnMsg":"该接口访问间隔为10秒！"}
+
+[INFO] [3]
+[12:22:26,026] [2018-01-13 12:22:26,026]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[12:22:26,115] [2018-01-13 12:22:26,115]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[12:25:31,922] [2018-01-13 12:25:31,921]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[INFO] [3]
+[12:26:37,277] [2018-01-13 12:26:37,272]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[12:26:37,371] [2018-01-13 12:26:37,367]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[12:26:49,419] [2018-01-13 12:26:49,419]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[12:26:58,053] [2018-01-13 12:26:58,053]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[12:27:06,218] [2018-01-13 12:27:06,218]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[INFO] [3]
+[12:28:57,883] [2018-01-13 12:28:57,267]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[12:29:14,832] [2018-01-13 12:29:14,831]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[WARN] [3]
+[12:31:36,282] [2018-01-13 12:31:36,281]
+2018-01-01 - 2018-01-13 : 第1页/共1页 成功下载 2 条采购订单信息.【1】
+
+[INFO] [3]
+[12:48:56,098] [2018-01-13 12:48:56,095]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[12:48:56,190] [2018-01-13 12:48:56,190]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.

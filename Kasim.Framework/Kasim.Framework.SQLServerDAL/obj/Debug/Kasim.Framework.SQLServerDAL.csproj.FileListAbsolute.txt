@@ -1,0 +1,12 @@
+D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\bin\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\bin\Debug\Kasim.Framework.SQLServerDAL.pdb
+D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.csproj.CoreCompileInputs.cache
+D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.pdb
+D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\bin\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\bin\Debug\Kasim.Framework.SQLServerDAL.pdb
+D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.csproj.CoreCompileInputs.cache
+D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.pdb

@@ -1,0 +1,304 @@
+
+[INFO] [1]
+[21:54:07,097] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:54:07,136] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:54:07,468] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:54:07,478] Starting up as a console application
+
+[INFO] [1]
+[21:54:07,585] The ZjyxcgServiceQuartz service is now running, press Control+C to exit.
+
+[ERROR] [3]
+[21:55:00,066] [2018-01-06 21:55:00,065]
+下载采购订单【4】
+
+[INFO] [3]
+[21:55:00,780] [2018-01-06 21:55:00,779]
+{"returnCode":9,"accessToken":"a8a3d318-4b83-45c2-bed0-02c38c530b1a","expiresIn":"","returnMsg":"令牌有效期超过5分钟，不能再次获取令牌"}
+
+[INFO] [3]
+[21:55:01,629] [2018-01-06 21:55:01,629]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:01,687] [2018-01-06 21:55:01,687]
+2018-01-06 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:05,042] [2018-01-06 21:55:05,042]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:05,046] [2018-01-06 21:55:05,042]
+2018-01-05 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:08,564] [2018-01-06 21:55:08,564]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:08,568] [2018-01-06 21:55:08,564]
+2018-01-04 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:12,279] [2018-01-06 21:55:12,279]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:12,281] [2018-01-06 21:55:12,279]
+2018-01-03 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:15,662] [2018-01-06 21:55:15,662]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:15,665] [2018-01-06 21:55:15,662]
+2018-01-02 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:18,976] [2018-01-06 21:55:18,976]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:22,489] [2018-01-06 21:55:18,976]
+2018-01-01 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:22,489] [2018-01-06 21:55:22,404]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:22,489] [2018-01-06 21:55:22,404]
+2017-12-31 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:25,721] [2018-01-06 21:55:25,721]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:25,724] [2018-01-06 21:55:25,721]
+2017-12-30 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:29,157] [2018-01-06 21:55:29,157]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:29,159] [2018-01-06 21:55:29,158]
+2017-12-29 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:32,456] [2018-01-06 21:55:32,456]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:32,457] [2018-01-06 21:55:32,456]
+2017-12-28 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:35,720] [2018-01-06 21:55:35,720]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:35,721] [2018-01-06 21:55:35,720]
+2017-12-27 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:38,929] [2018-01-06 21:55:38,929]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:38,933] [2018-01-06 21:55:38,929]
+2017-12-26 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:42,131] [2018-01-06 21:55:42,131]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:42,136] [2018-01-06 21:55:42,131]
+2017-12-25 : 无采购订单信息.【4】
+
+[INFO] [3]
+[21:55:45,614] [2018-01-06 21:55:45,614]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[WARN] [3]
+[21:55:45,615] [2018-01-06 21:55:45,614]
+2017-12-24 : 无采购订单信息.【4】
+
+[INFO] [1]
+[21:55:58,112] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:55:58,133] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:55:58,424] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:55:58,501] Starting up as a console application
+
+[INFO] [1]
+[21:55:58,605] The ZjyxcgServiceQuartz service is now running, press Control+C to exit.
+
+[INFO] [1]
+[21:56:15,063] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:56:15,103] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:56:15,367] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:56:15,375] Starting up as a console application
+
+[INFO] [1]
+[21:56:15,470] The ZjyxcgServiceQuartz service is now running, press Control+C to exit.
+
+[ERROR] [3]
+[21:57:00,098] [2018-01-06 21:57:00,096]
+下载采购订单【4】
+
+[INFO] [3]
+[21:57:00,850] [2018-01-06 21:57:00,849]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:01,430] [2018-01-06 21:57:01,430]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:02,114] [2018-01-06 21:57:02,114]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:02,950] [2018-01-06 21:57:02,949]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:03,579] [2018-01-06 21:57:03,578]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:04,044] [2018-01-06 21:57:04,044]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:04,773] [2018-01-06 21:57:04,773]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:05,180] [2018-01-06 21:57:05,180]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:05,705] [2018-01-06 21:57:05,705]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:06,291] [2018-01-06 21:57:06,291]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:06,923] [2018-01-06 21:57:06,923]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:07,477] [2018-01-06 21:57:07,477]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:08,329] [2018-01-06 21:57:08,329]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:08,917] [2018-01-06 21:57:08,917]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:09,535] [2018-01-06 21:57:09,535]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:09,935] [2018-01-06 21:57:09,935]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:10,362] [2018-01-06 21:57:10,362]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:10,988] [2018-01-06 21:57:10,988]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:11,693] [2018-01-06 21:57:11,692]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:12,397] [2018-01-06 21:57:12,397]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:13,019] [2018-01-06 21:57:13,019]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:13,544] [2018-01-06 21:57:13,544]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:14,168] [2018-01-06 21:57:14,168]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [3]
+[21:57:14,796] [2018-01-06 21:57:14,796]
+{"dataList":[],"totalRecordCount":0,"returnCode":1,"totalPageCount":0,"returnMsg":"业务执行成功","currentPageNumber":0}
+
+[INFO] [1]
+[21:57:32,411] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:57:32,433] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:57:32,707] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:57:32,718] Starting up as a console application
+
+[INFO] [1]
+[21:57:32,809] The ZjyxcgServiceQuartz service is now running, press Control+C to exit.
+
+[ERROR] [3]
+[21:58:00,159] [2018-01-06 21:58:00,158]
+下载采购订单【4】
+
+[ERROR] [3]
+[22:04:25,424] [2018-01-06 22:04:25,423]
+采购订单下载完毕【4】

@@ -1,0 +1,252 @@
+
+[WARN] [3]
+[09:54:18,898] [2018-01-15 09:54:18,898]
+2018-01-14 - 2018-01-16 : 第1页/共1页 成功下载 1 条采购订单信息.【1】
+
+[WARN] [3]
+[09:55:17,559] [2018-01-15 09:55:17,559]
+2018-01-14 - 2018-01-16 : 第1页/共1页 成功下载 1 条采购订单信息.【1】
+
+[INFO] [3]
+[10:00:49,362] [2018-01-15 10:00:49,362]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:00:49,518] [2018-01-15 10:00:49,518]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:04:27,221] [2018-01-15 10:04:27,221]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:04:27,315] [2018-01-15 10:04:27,315]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:06:52,696] [2018-01-15 10:06:52,696]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:06:52,790] [2018-01-15 10:06:52,790]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:07:37,992] [2018-01-15 10:07:37,992]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:07:39,587] [2018-01-15 10:07:39,587]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:08:04,672] [2018-01-15 10:08:04,672]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:08:04,688] [2018-01-15 10:08:04,688]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:09:50,095] [2018-01-15 10:09:50,095]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:09:50,111] [2018-01-15 10:09:50,111]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:11:36,556] [2018-01-15 10:11:36,556]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:11:37,559] [2018-01-15 10:11:37,559]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:13:38,585] [2018-01-15 10:13:38,585]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:13:43,520] [2018-01-15 10:13:43,520]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:25:09,769] [2018-01-15 10:25:09,769]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:25:13,331] [2018-01-15 10:25:13,331]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:30:27,121] [2018-01-15 10:30:27,106]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:30:27,199] [2018-01-15 10:30:27,199]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:36:05,196] [2018-01-15 10:36:05,196]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:36:05,274] [2018-01-15 10:36:05,274]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:40:24,812] [2018-01-15 10:40:24,812]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:40:24,843] [2018-01-15 10:40:24,843]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:43:04,106] [2018-01-15 10:43:04,106]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:43:04,121] [2018-01-15 10:43:04,121]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[10:43:24,417] [2018-01-15 10:43:24,417]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":{"errorCode":1,"errorMsg":"参数不能为空"}}
+
+[ERROR] [3]
+[10:43:24,433] [2018-01-15 10:43:24,433]
+Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.ErrorListEntity_Distribute]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'errorList.errorCode', line 1, position 62.
+
+[INFO] [3]
+[11:03:21,352] [2018-01-15 11:03:08,261]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":3,"errorMsg":"参数格式不正确【有效期格式不正确（如201505/20150501）】"}],"companyDistributeId":"4125295"},{"errorReasonList":[{"errorCode":3,"errorMsg":"参数格式不正确【有效期格式不正确（如201505/20150501）】"}],"companyDistributeId":"4125296"},{"errorReasonList":[{"errorCode":3,"errorMsg":"参数格式不正确【有效期格式不正确（如201505/20150501）】"}],"companyDistributeId":"4125297"}]}
+
+[INFO] [3]
+[11:04:31,385] [2018-01-15 11:04:31,385]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"orderDetailId":"180111142808977106801771","errorReasonList":[{"errorCode":4,"errorMsg":"数据不存在【非本企业数据，请勿操作；如发现多次操作，系统将取消接口权限】"}],"companyDistributeId":"4125295"},{"orderDetailId":"180111142808977106801771","errorReasonList":[{"errorCode":4,"errorMsg":"数据不存在【非本企业数据，请勿操作；如发现多次操作，系统将取消接口权限】"}],"companyDistributeId":"4125296"},{"orderDetailId":"180111142808977106801771","errorReasonList":[{"errorCode":4,"errorMsg":"数据不存在【非本企业数据，请勿操作；如发现多次操作，系统将取消接口权限】"}],"companyDistributeId":"4125297"}]}
+
+[INFO] [3]
+[11:05:01,673] [2018-01-15 11:05:01,673]
+{"returnCode":1,"successList":[{"companyDistributeId":"4125295","distributeId":"180115110502559079384052"},{"companyDistributeId":"4125296","distributeId":"180115110502559508344232"},{"companyDistributeId":"4125297","distributeId":"180115110502559587733582"}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[11:07:31,101] [2018-01-15 11:07:31,101]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":3,"errorMsg":"参数格式不正确【有效期格式不正确（如201505/20150501）】"}],"companyDistributeId":"4125298"}]}
+
+[INFO] [3]
+[11:07:47,982] [2018-01-15 11:07:47,982]
+{"returnCode":1,"successList":[{"companyDistributeId":"4125298","distributeId":"180115110756732022008042"}],"returnMsg":"业务执行成功"}
+
+[WARN] [3]
+[11:08:03,151] [2018-01-15 11:08:03,151]
+2018-01-01 - 2018-01-16 : 第1页/共1页 成功下载 3 条采购订单信息.【1】
+
+[ERROR] [3]
+[13:11:27,003] [2018-01-15 13:11:27,001]
+Error converting value {null} to type 'System.DateTime'. Path 'dataList[0].warehouseTime', line 1, position 61.
+
+[INFO] [3]
+[13:52:15,370] [2018-01-15 13:52:14,362]
+{"dataList":[{"warehouseCustomInfo":null,"warehouseTime":null,"warehouseCount":0,"distributeId":"180115110502559079384052"},{"warehouseCustomInfo":null,"warehouseTime":null,"warehouseCount":0,"distributeId":"180115110502559508344232"},{"warehouseCustomInfo":null,"warehouseTime":null,"warehouseCount":0,"distributeId":"180115110502559587733582"}],"totalRecordCount":3,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[13:52:33,521] [2018-01-15 13:52:33,520]
+第1页/共1页 成功下载 3 条收货信息.【1】
+
+[INFO] [3]
+[13:52:33,738] [2018-01-15 13:52:33,738]
+{"dataList":[{"warehouseCustomInfo":null,"warehouseTime":null,"warehouseCount":0,"distributeId":"180115110502559079384052"},{"warehouseCustomInfo":null,"warehouseTime":null,"warehouseCount":0,"distributeId":"180115110502559508344232"},{"warehouseCustomInfo":null,"warehouseTime":null,"warehouseCount":0,"distributeId":"180115110502559587733582"}],"totalRecordCount":3,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[14:09:27,549] [2018-01-15 14:09:27,546]
+{"dataList":[{"warehouseCustomInfo":null,"warehouseTime":1515996555000,"warehouseCount":100,"distributeId":"180115110502559079384052"}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[14:09:27,728] [2018-01-15 14:09:27,728]
+第1页/共1页 成功下载 1 条收货信息.【1】
+
+[INFO] [3]
+[14:09:27,943] [2018-01-15 14:09:27,943]
+{"dataList":[{"warehouseCustomInfo":null,"warehouseTime":1515996555000,"warehouseCount":100,"distributeId":"180115110502559079384052"}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[14:09:34,346] [2018-01-15 14:09:34,346]
+{"dataList":[{"warehouseCustomInfo":null,"warehouseTime":1515996532000,"warehouseCount":600,"distributeId":"180115110756732022008042"},{"warehouseCustomInfo":null,"warehouseTime":1515996555000,"warehouseCount":200,"distributeId":"180115110502559508344232"},{"warehouseCustomInfo":null,"warehouseTime":1515996555000,"warehouseCount":300,"distributeId":"180115110502559587733582"}],"totalRecordCount":3,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[14:09:34,634] [2018-01-15 14:09:34,634]
+第1页/共1页 成功下载 3 条收货信息.【1】
+
+[INFO] [3]
+[14:09:34,816] [2018-01-15 14:09:34,816]
+{"dataList":[{"warehouseCustomInfo":null,"warehouseTime":1515996532000,"warehouseCount":600,"distributeId":"180115110756732022008042"},{"warehouseCustomInfo":null,"warehouseTime":1515996555000,"warehouseCount":200,"distributeId":"180115110502559508344232"},{"warehouseCustomInfo":null,"warehouseTime":1515996555000,"warehouseCount":300,"distributeId":"180115110502559587733582"}],"totalRecordCount":3,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[14:19:11,295] [2018-01-15 14:19:09,299]
+{"dataList":[{"returnId":"5d612218-f9bb-11e7-87f2-005056b33695","returnTime":1515996877000,"distributeId":"180115110756732022008042","returnCount":600,"returnType":1,"returnReason":"滞销","returnCustomInfo":null}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[14:19:20,076] [2018-01-15 14:19:20,076]
+2018-01-01 - 2018-01-16 : 第1页/共1页 成功下载 1 条退货信息.【1】
+
+[INFO] [3]
+[14:19:40,239] [2018-01-15 14:19:40,239]
+{"dataList":[{"returnId":"5d612218-f9bb-11e7-87f2-005056b33695","returnTime":1515996877000,"distributeId":"180115110756732022008042","returnCount":600,"returnType":1,"returnReason":"滞销","returnCustomInfo":null}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[14:38:04,716] [2018-01-15 14:38:04,709]
+{"returnCode":1,"returnMsg":"业务执行成功","errorList":[]}
+
+[INFO] [3]
+[14:50:44,216] [2018-01-15 14:50:44,200]
+{"dataList":[{"returnId":"5d612218-f9bb-11e7-87f2-005056b33695","returnTime":1515996877000,"distributeId":"180115110756732022008042","returnCount":600,"returnType":1,"returnReason":"滞销","returnCustomInfo":null}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[14:50:44,518] [2018-01-15 14:50:44,517]
+2018-01-01 - 2018-01-16 : 第1页/共1页 成功下载 1 条退货信息.【1】
+
+[INFO] [3]
+[14:50:47,739] [2018-01-15 14:50:47,739]
+{"dataList":[{"returnId":"5d612218-f9bb-11e7-87f2-005056b33695","returnTime":1515996877000,"distributeId":"180115110756732022008042","returnCount":600,"returnType":1,"returnReason":"滞销","returnCustomInfo":null}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[14:52:01,306] [2018-01-15 14:52:01,306]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":5,"errorMsg":"数据状态不符"}],"returnId":"5d612218-f9bb-11e7-87f2-005056b33695"}]}
+
+[INFO] [3]
+[15:16:40,722] [2018-01-15 15:16:40,720]
+{"returnCode":1,"returnMsg":"业务执行成功","errorList":[]}
+
+[INFO] [3]
+[15:18:52,203] [2018-01-15 15:18:52,199]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":5,"errorMsg":"数据状态不符"}],"returnId":"5d612218-f9bb-11e7-87f2-005056b33695"}]}

@@ -1,0 +1,53 @@
+
+[INFO] [12]
+[14:01:43,590] [2018-01-06 14:01:42,673]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[ERROR] [12]
+[14:01:56,093] [2018-01-06 14:01:56,093]
+Error converting value "[]" to type 'System.Collections.Generic.List`1[Kasim.Framework.Entity.QuartzLog.Hospital]'. Path 'dataList', line 1, position 16.
+
+[INFO] [12]
+[14:03:23,612] [2018-01-06 14:02:22,302]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [12]
+[14:11:15,870] [2018-01-06 14:11:15,363]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [12]
+[14:23:50,414] [2018-01-06 14:23:41,330]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [12]
+[14:26:42,434] [2018-01-06 14:26:39,547]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [12]
+[14:29:50,875] [2018-01-06 14:29:50,873]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [12]
+[14:48:42,907] [2018-01-06 14:48:42,904]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [12]
+[14:49:05,586] [2018-01-06 14:49:05,586]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [13]
+[14:54:54,176] [2018-01-06 14:54:54,174]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [18]
+[14:54:54,312] [2018-01-06 14:54:54,312]
+{"dataList":"[]","returnCode":2,"returnMsg":"访问未授权，请得到授权后访问"}
+
+[INFO] [14]
+[14:55:50,659] [2018-01-06 14:55:49,093]
+
+OrgUserName:
+37594F416262582578820C0F3D3D9CD8
+Secret:
+4D0270713B1D1159EEDF01BE54AF9511
+
