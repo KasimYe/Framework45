@@ -74,9 +74,9 @@ namespace Kasim.Framework.ZjyxcgWinForm
 
             Dgv.SetDefaultStyle(dgv);
 
-            dgv.Columns.Add(Dgv.AddDgvTextBox("returnId", "退货明细编号", 150, _Alignment: Dgv.DgvAlign.ML));
+            dgv.Columns.Add(Dgv.AddDgvTextBox("returnId", "退货明细编号", 225, _Alignment: Dgv.DgvAlign.ML));
             dgv.Columns.Add(Dgv.AddDgvCheckBox("returnType", "入库后退", 60, _Alignment: Dgv.DgvAlign.MC));
-            dgv.Columns.Add(Dgv.AddDgvTextBox("distributeId", "配送明细编号", 85, _Alignment: Dgv.DgvAlign.MC));
+            dgv.Columns.Add(Dgv.AddDgvTextBox("distributeId", "配送明细编号", 150, _Alignment: Dgv.DgvAlign.MC));
             dgv.Columns.Add(Dgv.AddDgvTextBox("returnCount", "退货数量", 70, _Alignment: Dgv.DgvAlign.MR));
             dgv.Columns.Add(Dgv.AddDgvTextBox("returnReason", "退货理由", 200, _Alignment: Dgv.DgvAlign.ML));
             dgv.Columns.Add(Dgv.AddDgvTextBox("returnCustomInfo", "自定义退货信息", 200, _Alignment: Dgv.DgvAlign.ML));

@@ -65,6 +65,11 @@ namespace Kasim.Framework.SQLServerDAL.QuartzLog
             throw new NotImplementedException();
         }
 
+        public List<Distribute> GetList(string hospitalId)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Distribute> GetListById(DateTime startDate, DateTime endDate, string orderDetailId)
         {
             using (var Conn = new ConnectionFactory("ErpConnStr").Connection)
@@ -78,6 +83,11 @@ namespace Kasim.Framework.SQLServerDAL.QuartzLog
                 Conn.Dispose();
                 return result;
             }
+        }
+
+        public int SetDistributeId(string companyDistributeId, string distributeId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

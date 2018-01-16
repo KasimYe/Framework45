@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kasim.Framework.ZjyxcgWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Kasim.Framework.ZjyxcgWebApi.SwaggerConfig.GetXmlCommentsPath(System.String)">
+            <summary>
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Kasim.Framework.ZjyxcgWebApi.Controllers.OrderController">
+            <summary>
+            采购订单API
+            </summary>
+        </member>
+        <member name="M:Kasim.Framework.ZjyxcgWebApi.Controllers.OrderController.Read(System.String)">
+            <summary>
+            C004 阅读订单
+            </summary>
+            <param name="value">采购订单明细</param>
+            <returns>结果Json字符串</returns>
+        </member>
+        <member name="M:Kasim.Framework.ZjyxcgWebApi.Controllers.OrderController.Response(System.String)">
+            <summary>
+             C005 响应订单
+            </summary>
+            <param name="value">采购订单明细</param>
+            <returns>结果Json字符串</returns>
+        </member>
+        <member name="T:Kasim.Framework.ZjyxcgWebApi.Controllers.ReturnController">
+            <summary>
+            退货信息API
+            </summary>
+        </member>
+        <member name="M:Kasim.Framework.ZjyxcgWebApi.Controllers.ReturnController.Response(System.String)">
+            <summary>
+            C009 退货响应
+            </summary>
+            <param name="value">退货信息</param>
+            <returns>结果Json字符串</returns>
+        </member>
+        <member name="M:Kasim.Framework.ZjyxcgWebApi.Controllers.ReturnController.Maintenance(System.String)">
+            <summary>
+            C010 维护退货发票
+            </summary>
+            <param name="value">退货信息</param>
+            <returns>结果Json字符串</returns>
+        </member>
+    </members>
+</doc>

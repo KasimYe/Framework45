@@ -1,0 +1,16 @@
+
+[WARN] [3]
+[20:19:29,206] [2018-01-16 20:19:29,206]
+2018-01-01 - 2018-01-16 : 第1页/共1页 成功下载 3 条采购订单信息.【1】
+
+[INFO] [3]
+[20:26:01,943] [2018-01-16 20:26:01,927]
+{"dataList":[{"returnId":"5d612218-f9bb-11e7-87f2-005056b33695","returnTime":1515996877000,"distributeId":"180115110756732022008042","returnCount":600,"returnType":1,"returnReason":"滞销","returnCustomInfo":null}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[20:26:02,114] [2018-01-16 20:26:02,114]
+2018-01-01 - 2018-01-16 : 第1页/共1页 成功下载 1 条退货信息.【1】
+
+[INFO] [3]
+[20:26:02,302] [2018-01-16 20:26:02,302]
+{"dataList":[{"returnId":"5d612218-f9bb-11e7-87f2-005056b33695","returnTime":1515996877000,"distributeId":"180115110756732022008042","returnCount":600,"returnType":1,"returnReason":"滞销","returnCustomInfo":null}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}

@@ -18,3 +18,13 @@ D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framew
 D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csproj.GenerateResource.Cache
 D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.PopMsg.resources
 D:\KasimWorks\GitHub\Framework\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csproj.GenerateResource.Cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\Kasim.Framework.Common.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\Kasim.Framework.Common.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\log4net.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\log4net.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.PopMsg.resources
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csproj.GenerateResource.Cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csproj.CoreCompileInputs.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.pdb
