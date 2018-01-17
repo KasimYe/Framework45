@@ -147,7 +147,7 @@ namespace Kasim.Framework.ZjyxcgWinForm
                     invoiceId = Convert.ToString(item.Cells["invoiceId"].Value),
                     //invoiceCode = "3302154320",
                     batchCode = item.Cells["batchCode"].Value.ToString(),
-                    periodDate = item.Cells["periodDate"].Value.ToString(),
+                    periodDate = item.Cells["periodDate"].Value.ToString().Replace("-",""),
                     distributeCustomInfo = Convert.ToString(item.Cells["distributeCustomInfo"].Value),
                     firstInviceID = Convert.ToString(item.Cells["firstInviceID"].Value),
                     middleInviceID = Convert.ToString(item.Cells["middleInviceID"].Value),

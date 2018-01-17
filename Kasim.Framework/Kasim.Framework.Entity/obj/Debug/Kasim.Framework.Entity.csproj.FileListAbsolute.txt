@@ -28,3 +28,13 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entit
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csproj.CoreCompileInputs.cache
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.dll
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\bin\Debug\Kasim.Framework.Entity.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\bin\Debug\Kasim.Framework.Entity.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\bin\Debug\Kasim.Framework.Common.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\bin\Debug\log4net.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\bin\Debug\Kasim.Framework.Common.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\bin\Debug\log4net.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csprojResolveAssemblyReference.cache
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csproj.CoreCompileInputs.cache
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.pdb
