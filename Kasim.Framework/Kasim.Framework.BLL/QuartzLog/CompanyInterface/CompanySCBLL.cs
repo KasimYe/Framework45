@@ -74,6 +74,10 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                 {
                     AddCompany(entity);
                 }
+                else
+                {
+                    UpdateCompany(entity);
+                }
             }
         }
 
@@ -98,7 +102,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/companySc/getCompanySc";
+                string url = ModelFactory.Url + "/companyInterface/companySc/getCompanySc";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -107,7 +111,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Company>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetCompanys(companyIds, month, currentPageNumber);
                               
@@ -118,6 +122,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                 FlashLogger.Error(ex.Message);
                 return null;
             }
+        }
+
+        public int UpdateCompany(Company entity)
+        {
+            return dal.SetEntity(entity);
         }
     }
 }

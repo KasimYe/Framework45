@@ -52,6 +52,7 @@ namespace Kasim.Framework.IDAL.QuartzLog
     public interface ICompanyDAL
     {
         int AddEntity(Company entity);
+        int SetEntity(Company entity);
         Company GetEntityById(string id);
         List<Company> GetListByDate(DateTime startDate, DateTime endDate);
         List<Company> GetListByName(string companyName);

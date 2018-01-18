@@ -97,5 +97,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         /// <param name="companyName"></param>
         /// <returns></returns>
         List<Company> GetCompanyList(DateTime startDate, DateTime endDate, string companyName);
+        /// <summary>
+        /// 更新数据库
+        /// </summary>
+        /// <param name="entity">生产企业</param>
+        /// <returns></returns>
+        int UpdateCompany(Company entity);
     }
 }

@@ -60,14 +60,14 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/invoice/addInvoice";
+                string url = ModelFactory.Url + "/companyInterface/drug/invoice/addInvoice";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
                     { "invoiceInfo", invoiceInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Invoice, Invoice>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return SubmitInvoice(invoiceInfo);
 

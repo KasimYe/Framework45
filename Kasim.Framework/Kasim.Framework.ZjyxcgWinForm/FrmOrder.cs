@@ -80,8 +80,8 @@ namespace Kasim.Framework.ZjyxcgWinForm
             dgv.Columns.Add(Dgv.AddDgvTextBox("orderName", "订单名称", 320, _Alignment: Dgv.DgvAlign.ML));
             dgv.Columns.Add(Dgv.AddDgvCheckBox("orderType", "急救订单", 60, _Alignment: Dgv.DgvAlign.MC));
             dgv.Columns.Add(Dgv.AddDgvTextBox("orderRemarks", "订单备注", 230, _Alignment: Dgv.DgvAlign.ML));
-            dgv.Columns.Add(Dgv.AddDgvTextBox("totalDetailCount", "总单行数", 70, _Alignment: Dgv.DgvAlign.MC));
-            dgv.Columns.Add(Dgv.AddDgvTextBox("orderDetailId", "订单明细编号", 85, _Alignment: Dgv.DgvAlign.MC));
+            dgv.Columns.Add(Dgv.AddDgvTextBox("totalDetailCount", "总单行数", 60, _Alignment: Dgv.DgvAlign.MC));
+            dgv.Columns.Add(Dgv.AddDgvTextBox("orderDetailId", "订单明细编号", 150, _Alignment: Dgv.DgvAlign.MC));
             dgv.Columns.Add(Dgv.AddDgvTextBox("procurecatalogId", "商品编号", 65, _Alignment: Dgv.DgvAlign.ML));
             dgv.Columns.Add(Dgv.AddDgvTextBox("hospitalId", "医疗机构编号", 225, _Alignment: Dgv.DgvAlign.ML));
             dgv.Columns.Add(Dgv.AddDgvTextBox("purchaseCount", "采购数量", 70, _Alignment: Dgv.DgvAlign.MR));
@@ -90,7 +90,7 @@ namespace Kasim.Framework.ZjyxcgWinForm
             dgv.Columns.Add(Dgv.AddDgvComboBox(orderDetailStateList, "StateID", "StateName", "orderDetailState", "订单明细状态", 105, _Alignment: Dgv.DgvAlign.MC));
             dgv.Columns.Add(Dgv.AddDgvTextBox("detailDistributeAddress", "送货地址", 200, _Alignment: Dgv.DgvAlign.ML));
             dgv.Columns.Add(Dgv.AddDgvTextBox("submitTime", "变更时间", 140, _Format: "yyyy-MM-dd HH:mm:ss", _Alignment: Dgv.DgvAlign.MC));
-            dgv.Columns.Add(Dgv.AddDgvTextBox("orderCustomInfo", "送货地址", 200, _Alignment: Dgv.DgvAlign.ML));
+            dgv.Columns.Add(Dgv.AddDgvTextBox("orderCustomInfo", "订单信息", 200, _Alignment: Dgv.DgvAlign.ML));
         }
 
         private void btnSearch_Click(object sender, EventArgs e)

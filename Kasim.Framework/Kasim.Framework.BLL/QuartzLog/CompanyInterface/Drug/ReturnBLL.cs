@@ -94,7 +94,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/return/getReturn";
+                string url = ModelFactory.Url + "/companyInterface/drug/return/getReturn";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -120,7 +120,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/return/maintenance";
+                string url = ModelFactory.Url + "/companyInterface/drug/return/maintenance";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -144,7 +144,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/return/response";
+                string url = ModelFactory.Url + "/companyInterface/drug/return/response";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },

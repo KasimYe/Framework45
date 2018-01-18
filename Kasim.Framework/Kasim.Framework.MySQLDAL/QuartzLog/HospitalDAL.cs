@@ -68,11 +68,36 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
             }
         }
 
+        public int SetEntity(Hospital entity)
+        {
+            using (var Conn = new ConnectionFactory().Connection)
+            {
+                string query = "UPDATE `zjyxcg`.`hospital` SET  `hospitalName` = @hospitalName,`hospitalAddress` = @hospitalAddress,`groupName` = @groupName,"
+                    + "`lastUpdateTime` = @lastUpdateTime WHERE `hospitalId` = @hospitalId AND `departmentId` = @departmentId ;";
+                var result = Conn.Execute(query, entity);
+                Conn.Close();
+                Conn.Dispose();
+                return result;
+            }
+        }
+
+        public Hospital GetEntityById(string id, int id2)
+        {
+            using (var Conn = new ConnectionFactory().Connection)
+            {
+                string query = "SELECT * FROM hospital WHERE hospitalId=@hospitalId AND departmentId=@departmentId";
+                var result = Conn.Query<Hospital>(query, new { hospitalId = id, departmentId = id2 }).SingleOrDefault();
+                Conn.Close();
+                Conn.Dispose();
+                return result;
+            }
+        }
+
         public Hospital GetEntityById(string id)
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "SELECT * FROM hospital WHERE hospitalId=@hospitalId";
+                string query = "SELECT * FROM hospital WHERE hospitalId=@hospitalId LIMIT 1";
                 var result = Conn.Query<Hospital>(query, new { hospitalId = id }).SingleOrDefault();
                 Conn.Close();
                 Conn.Dispose();

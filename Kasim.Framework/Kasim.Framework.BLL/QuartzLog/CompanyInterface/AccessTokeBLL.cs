@@ -63,7 +63,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface
 
         public AccessTokenEntity GetToken()
         {
-            string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/accessToken/getToken";
+            string url = ModelFactory.Url + "/companyInterface/accessToken/getToken";
             ModelFactory.orgUser = new OrgUser
             {
                 OrgUserName = ModelFactory.OrgUserName,
@@ -77,7 +77,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface
                 { "params", pars }
             };
             string result = WebClientHttp.Post(url, postVars);
-            //FlashLogger.Info(result);
+            FlashLogger.Info(result);
             var entity = (AccessTokenEntity)JsonConvert.DeserializeObject(result, typeof(AccessTokenEntity));
             entity.ResultJson = result;
             return entity;

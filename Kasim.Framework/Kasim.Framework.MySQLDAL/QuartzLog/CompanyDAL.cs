@@ -103,5 +103,18 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
                 return result;
             }
         }
+
+        public int SetEntity(Company entity)
+        {
+            using (var Conn = new ConnectionFactory().Connection)
+            {
+                string query = "UPDATE   `zjyxcg`.`company` SET `companyName` = @companyName,`address` = @address,`companyContactTel` = @companyContactTel,`companyContactFax` = @companyContactFax,"
+                    + "`zipCode` = @zipCode,`email` = @email,`lastUpdateTime` = @lastUpdateTime WHERE `companyId` = @companyId ;";
+                var result = Conn.Execute(query, entity);
+                Conn.Close();
+                Conn.Dispose();
+                return result;
+            }
+        }
     }
 }

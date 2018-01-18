@@ -57,9 +57,9 @@ namespace Kasim.Framework.BLL.QuartzLog
     {
         public BaseEntity TestConnection()
         {
-            string url = ModelFactory.Url + "/tradeInterface/v1/testConnection";
+            string url = ModelFactory.Url + "/testConnection";
             string result = WebRequestHttp.Post(url, "", Encoding.UTF8);
-            //FlashLogger.Info(result);
+            FlashLogger.Info(result);
             var baseEntity = (BaseEntity)JsonConvert.DeserializeObject(result, typeof(BaseEntity));
             baseEntity.ResultJson = result;
             return baseEntity;

@@ -53,6 +53,7 @@ namespace Kasim.Framework.IDAL.QuartzLog
     public interface IProcurecatalogDAL
     {
         int AddEntity(Procurecatalog entity);
+        int SetEntity(Procurecatalog entity);
         Procurecatalog GetEntityById(int id);
         List<Procurecatalog> GetListByDate(DateTime startDate, DateTime endDate);
         List<Procurecatalog> GetListByName(string productName);

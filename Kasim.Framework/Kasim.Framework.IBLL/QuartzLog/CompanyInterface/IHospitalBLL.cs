@@ -55,6 +55,13 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         /// 根据ID获取医疗机构
         /// </summary>
         /// <param name="id">医疗机构ID</param>
+        /// <param name="id2">医疗机构部门ID</param>
+        /// <returns></returns>
+        Hospital GetHospitalById(string id,int id2);
+        /// <summary>
+        /// 根据ID获取医疗机构
+        /// </summary>
+        /// <param name="id">医疗机构ID</param>
         /// <returns></returns>
         Hospital GetHospitalById(string id);
         /// <summary>
@@ -103,5 +110,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         /// <param name="hospitalName"></param>
         /// <returns></returns>
         List<Hospital> GetHospitalList(DateTime startDate, DateTime endDate, string hospitalName);
+        /// <summary>
+        /// 更新数据库
+        /// </summary>
+        /// <param name="entity">医疗机构</param>
+        /// <returns></returns>
+        int UpdateHospital(Hospital entity);
     }
 }

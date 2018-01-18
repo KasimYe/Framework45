@@ -75,6 +75,10 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                 {
                     AddProcurecatalog(entity);
                 }
+                else
+                {
+                    UpdateProcurecatalog(entity);
+                }
             }
         }
 
@@ -87,7 +91,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/procurecatalog/getProcurecatalog";
+                string url = ModelFactory.Url + "/companyInterface/drug/procurecatalog/getProcurecatalog";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -96,7 +100,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Procurecatalog>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetProcurecatalogs(procurecatalogIds, month, currentPageNumber);
 
@@ -113,14 +117,14 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/procurecatalog/checkExist";
+                string url = ModelFactory.Url + "/companyInterface/drug/procurecatalog/checkExist";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
                     { "procureCatalogInfo", procureCatalogInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Procurecatalog>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return CheckExist(procureCatalogInfo);
 
@@ -154,6 +158,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                 new PurchaseType{ TypeId=3,TypeName="低价药品"},
                 new PurchaseType{ TypeId=4,TypeName="备案药品"},
             };
+        }
+
+        public int UpdateProcurecatalog(Procurecatalog entity)
+        {
+            return dal.SetEntity(entity);
         }
     }
 }

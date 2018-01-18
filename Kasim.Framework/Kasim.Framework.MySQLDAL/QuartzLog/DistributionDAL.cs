@@ -84,9 +84,11 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "SELECT `companyDistributeId`,d.`orderDetailId`,`distributeCount`,`invoiceId`,`batchCode`,`periodDate`,`distributeCustomInfo`,`firstInviceID`,`middleInviceID`,`secondInviceCode`,`distributeId`,"
+                string query = "SELECT MAX(`companyDistributeId`) AS companyDistributeId,d.`orderDetailId`,SUM(`distributeCount`) AS distributeCount,`invoiceId`,`batchCode`,`periodDate`,`distributeCustomInfo`,`firstInviceID`,`middleInviceID`,`secondInviceCode`,`distributeId`,"
                     + "`orderId`,`orderName`,`orderType`,`orderRemarks`,`totalDetailCount`,`hospitalId`,`hospitalDepartmentId`,`procurecatalogId`,`purchaseCount`,`purchasePrice`,`purchaseAmount`,`orderDetailState`,`detailDistributeAddress`,`submitTime`,`orderCustomInfo` "
-                    + "FROM`zjyxcg`.`distribute` d,`zjyxcg`.`Order` o WHERE d.`orderDetailId`=o.`orderDetailId` AND o.`hospitalId`=@hospitalId";
+                    + "FROM`zjyxcg`.`distribute` d,`zjyxcg`.`Order` o WHERE d.`orderDetailId`=o.`orderDetailId` AND o.`hospitalId`=@hospitalId"
+                    + " GROUP BY d.`orderDetailId`,`invoiceId`,`batchCode`,`periodDate`,`distributeCustomInfo`,`firstInviceID`,`middleInviceID`,`secondInviceCode`,`distributeId`,`orderId`,`orderName`,`orderType`,"
+                    + "`orderRemarks`,`totalDetailCount`,`hospitalId`,`hospitalDepartmentId`,`procurecatalogId`,`purchaseCount`,`purchasePrice`,`purchaseAmount`,`orderDetailState`,`detailDistributeAddress`,`submitTime`,`orderCustomInfo`";
                 var result = Conn.Query<Distribute, Order, Distribute>(query, (distribute, order) =>
                   {
                       distribute.Order = order;

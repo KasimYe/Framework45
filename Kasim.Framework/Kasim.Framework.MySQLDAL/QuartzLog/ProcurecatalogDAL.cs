@@ -70,6 +70,21 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
             }
         }
 
+        public int SetEntity(Procurecatalog entity)
+        {
+            using (var Conn = new ConnectionFactory().Connection)
+            {
+                string query = "UPDATE `zjyxcg`.`procurecatalog` SET `goodsId` = @goodsId,`productName` = @productName,`goodsName` = @goodsName,`medicinemodel` = @medicinemodel,`outlook` = @outlook,"
+                    + "`factor` = @factor,`materialName` = @materialName,`unit` = @unit,`companyIdSc` = @companyIdSc,`companyNameSc` = @companyNameSc,`purchaseType` = @purchaseType,`sourceName` = @sourceName,"
+                    + "`middlePack` = @middlePack,`maxPack` = @maxPack,`bidPrice` = @bidPrice,`isUsing` = @isUsing,`lastUpdateTime` = @lastUpdateTime "
+                    + "WHERE `procurecatalogId` = @procurecatalogId ;";
+                var result = Conn.Execute(query, entity);
+                Conn.Close();
+                Conn.Dispose();
+                return result;
+            }
+        }
+
         public Procurecatalog GetEntityById(int id)
         {
             using (var Conn = new ConnectionFactory().Connection)

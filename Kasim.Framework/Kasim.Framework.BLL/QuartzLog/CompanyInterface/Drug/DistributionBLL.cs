@@ -96,7 +96,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/distribution/distribute";
+                string url = ModelFactory.Url + "/companyInterface/drug/distribution/distribute";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },

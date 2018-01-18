@@ -44,8 +44,8 @@ namespace Kasim.Framework.UnitTest
         public void EncryptTest()
         {
             FlashLogger.Instance().Register();
-            string orgUserName = "ZJYP_J0310";
-            string secret = "wlyy62159968";
+            string orgUserName = "zjyp_j0049";
+            string secret = "111111";
             string key = "yss.yh";
             var uname = MySecurity.SEncryptString(orgUserName, key);
             var psd = MySecurity.SEncryptString(secret, key);

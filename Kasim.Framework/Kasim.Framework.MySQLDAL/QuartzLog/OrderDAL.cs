@@ -112,7 +112,7 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "UPDATE `zjyxcg`.`order` SET `orderDetailState`=@orderDetailState WHERE `orderId`=@orderId ;";
+                string query = "UPDATE `zjyxcg`.`order` SET `orderDetailState`=@orderDetailState WHERE `orderDetailId`=@orderDetailId ;";
                 var result = Conn.Execute(query, entity);
                 Conn.Close();
                 Conn.Dispose();

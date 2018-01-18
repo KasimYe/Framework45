@@ -63,7 +63,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             entity.SubmitTime = TimeHelper.GetTime(entity.SubmitTime.ToString());
             IHospitalBLL hospitalBLL = new HospitalBLL();
-            if (hospitalBLL.GetHospitalById(entity.HospitalId)==null)
+            if (hospitalBLL.GetHospitalById(entity.HospitalId,Convert.ToInt32(entity.HospitalDepartmentId))==null)
             {
                 var objList = new List<object>
                 {
@@ -147,7 +147,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/purchaseOrder/getOrder";
+                string url = ModelFactory.Url + "/companyInterface/drug/purchaseOrder/getOrder";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -156,7 +156,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);                
+                FlashLogger.Info(result);                
                 var list = new ListEntityCommon<Order>().CheckReturnCode(result, out int rcode);
                 if (rcode==0) return GetOrders(startTime, endTime, currentPageNumber);
                
@@ -173,14 +173,14 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/purchaseOrder/read";
+                string url = ModelFactory.Url + "/companyInterface/drug/purchaseOrder/read";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
                     { "orderDetailInfo", orderDetailInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Order, Order>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return Read(orderDetailInfo);
 
@@ -197,14 +197,14 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/drug/purchaseOrder/response";
+                string url = ModelFactory.Url + "/companyInterface/drug/purchaseOrder/response";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
                     { "orderDetailInfo", orderDetailInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Order, Order>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return Read(orderDetailInfo);
 

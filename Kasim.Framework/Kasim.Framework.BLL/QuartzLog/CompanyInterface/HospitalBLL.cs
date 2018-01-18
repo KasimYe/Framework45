@@ -70,9 +70,13 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         {
             foreach (var entity in list)
             {
-                if (GetHospitalById(entity.HospitalId) == null)
+                if (GetHospitalById(entity.HospitalId,Convert.ToInt32(entity.DepartmentId)) == null)
                 {
                     AddHospital(entity);
+                }
+                else
+                {
+                    UpdateHospital(entity);
                 }
             }
         }
@@ -81,14 +85,14 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/hospital/checkExist";
+                string url = ModelFactory.Url + "/companyInterface/hospital/checkExist";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
                     { "hospitalInfo", hospitalInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Hospital>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return CheckExist(hospitalInfo);
 
@@ -99,6 +103,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                 FlashLogger.Error(ex.Message);
                 return null;
             }
+        }
+
+        public Hospital GetHospitalById(string id,int id2)
+        {
+            return dal.GetEntityById(id, id2);
         }
 
         public Hospital GetHospitalById(string id)
@@ -123,7 +132,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/hospital/getHospital";
+                string url = ModelFactory.Url + "/companyInterface/hospital/getHospital";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -132,7 +141,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Hospital>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetHospitals(hospitalIds, month, currentPageNumber);
 
@@ -143,6 +152,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                 FlashLogger.Error(ex.Message);
                 return null;
             }
+        }
+
+        public int UpdateHospital(Hospital entity)
+        {
+            return dal.SetEntity(entity);
         }
     }
 }

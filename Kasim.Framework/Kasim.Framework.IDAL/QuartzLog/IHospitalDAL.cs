@@ -52,8 +52,10 @@ namespace Kasim.Framework.IDAL.QuartzLog
     public interface IHospitalDAL
     {
         int AddEntity(Hospital entity);
-        Hospital GetEntityById(string id);
+        int SetEntity(Hospital entity);
+        Hospital GetEntityById(string id,int id2);
         List<Hospital> GetListByDate(DateTime startDate, DateTime endDate);
         List<Hospital> GetListByName(string hospitalName);
+        Hospital GetEntityById(string id);
     }
 }

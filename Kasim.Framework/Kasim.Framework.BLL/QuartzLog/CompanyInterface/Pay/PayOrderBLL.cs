@@ -60,7 +60,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Pay
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/pay/getPayOrderDetail";
+                string url = ModelFactory.Url + "/companyInterface/pay/getPayOrderDetail";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },
@@ -85,7 +85,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Pay
         {
             try
             {
-                string url = ModelFactory.Url + "/tradeInterface/v1/companyInterface/pay/getPayOrder";
+                string url = ModelFactory.Url + "/companyInterface/pay/getPayOrder";
                 var postVars = new NameValueCollection
                 {
                     { "accessToken", AccessTokeBLL.AccessToken.AccessToken },

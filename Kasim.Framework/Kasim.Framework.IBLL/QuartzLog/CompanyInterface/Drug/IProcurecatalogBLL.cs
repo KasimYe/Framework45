@@ -107,5 +107,11 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         /// </summary>
         /// <returns></returns>
         List<PurchaseType> GetPurchaseTypes();
+        /// <summary>
+        /// 更新数据库
+        /// </summary>
+        /// <param name="entity">商品</param>
+        /// <returns></returns>
+        int UpdateProcurecatalog(Procurecatalog entity);
     }
 }
