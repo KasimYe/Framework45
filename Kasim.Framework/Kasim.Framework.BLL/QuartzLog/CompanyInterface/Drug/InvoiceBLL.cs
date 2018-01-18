@@ -67,7 +67,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
                     { "invoiceInfo", invoiceInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                FlashLogger.Info(result);
+                //FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Invoice, Invoice>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return SubmitInvoice(invoiceInfo);
 

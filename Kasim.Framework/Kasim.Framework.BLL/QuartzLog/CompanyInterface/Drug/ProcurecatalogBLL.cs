@@ -100,7 +100,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                FlashLogger.Info(result);
+                //FlashLogger.Info(result);
                 var list = new ListEntityCommon<Procurecatalog>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetProcurecatalogs(procurecatalogIds, month, currentPageNumber);
 
@@ -124,7 +124,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "procureCatalogInfo", procureCatalogInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                FlashLogger.Info(result);
+                //FlashLogger.Info(result);
                 var list = new ListEntityCommon<Procurecatalog>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return CheckExist(procureCatalogInfo);
 
