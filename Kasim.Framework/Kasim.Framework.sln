@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasim.Framework.BLL", "Kasim.Framework.BLL\Kasim.Framework.BLL.csproj", "{4FE267E4-7DCB-4564-AAEC-827CBA8BD69A}"
 EndProject
@@ -26,6 +26,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasim.Framework.ZjyxcgWinForm", "Kasim.Framework.ZjyxcgWinForm\Kasim.Framework.ZjyxcgWinForm.csproj", "{D68A92B3-6960-4A04-AEF6-9146D3C536FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasim.Framework.ZjyxcgWebApi", "Kasim.Framework.ZjyxcgWebApi\Kasim.Framework.ZjyxcgWebApi.csproj", "{58A6613C-2566-41D1-B0E1-AF84C7AA40AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasim.Framework.OcrSearchWinForm", "Kasim.Framework.OcrSearchWinForm\Kasim.Framework.OcrSearchWinForm.csproj", "{C4C6A032-D481-494E-A3EE-1ABADAA55615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasim.Framework.SQLiteDAL", "Kasim.Framework.SQLiteDAL\Kasim.Framework.SQLiteDAL.csproj", "{90237B3A-1663-4E62-A723-A25A54EBF1D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{58A6613C-2566-41D1-B0E1-AF84C7AA40AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A6613C-2566-41D1-B0E1-AF84C7AA40AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A6613C-2566-41D1-B0E1-AF84C7AA40AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C6A032-D481-494E-A3EE-1ABADAA55615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C6A032-D481-494E-A3EE-1ABADAA55615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C6A032-D481-494E-A3EE-1ABADAA55615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C6A032-D481-494E-A3EE-1ABADAA55615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90237B3A-1663-4E62-A723-A25A54EBF1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90237B3A-1663-4E62-A723-A25A54EBF1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90237B3A-1663-4E62-A723-A25A54EBF1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90237B3A-1663-4E62-A723-A25A54EBF1D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
