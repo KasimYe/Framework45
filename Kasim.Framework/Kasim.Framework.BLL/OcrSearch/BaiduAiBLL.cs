@@ -41,11 +41,14 @@
 * desc:
 *
 *=====================================================================*/
+using Baidu.Aip.Ocr;
 using Kasim.Framework.Common;
 using Kasim.Framework.Factory.OcrSearch;
 using Kasim.Framework.IBLL.OcrSearch;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -58,11 +61,11 @@ namespace Kasim.Framework.BLL.OcrSearch
 {
     public class BaiduAiBLL : IBaiduAiBLL
     {
-        public string General()
-        {
-            string token = "#####调用鉴权接口获取的token#####";
-            string strbaser64 = FileOperate.GetFileBase64("/work/ai/images/ocr/general.jpeg"); // 图片的base64编码
-            string host = "https://aip.baidubce.com/rest/2.0/ocr/v1/general?access_token=" + token;
+        public string General(Image image)
+        {           
+            //string token = "#####调用鉴权接口获取的token#####";
+            string strbaser64 = FileOperate.GetFileBase64(image); // 图片的base64编码
+            string host = "https://aip.baidubce.com/rest/2.0/ocr/v1/general?access_token=" + ModelFactory.TOKEN;
             Encoding encoding = Encoding.Default;
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(host);
             request.Method = "post";
@@ -80,6 +83,22 @@ namespace Kasim.Framework.BLL.OcrSearch
             return result;
         }
 
+        public JObject GeneralBasic(Image image)
+        {            
+            try
+            {                
+                var client = new Ocr(ModelFactory.API_KEY, ModelFactory.SECRET_KEY);
+                var result = client.GeneralBasic(FileOperate.ImageToBytes(image));
+                Console.WriteLine(result);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
         public string GetAccessToken()
         {
             String authHost = "https://aip.baidubce.com/oauth/2.0/token";
@@ -87,8 +106,8 @@ namespace Kasim.Framework.BLL.OcrSearch
             List<KeyValuePair<String, String>> paraList = new List<KeyValuePair<string, string>>
             {
                 new KeyValuePair<string, string>("grant_type", "client_credentials"),
-                new KeyValuePair<string, string>("client_id", ModelFactory.ClientId),
-                new KeyValuePair<string, string>("client_secret", ModelFactory.ClientSecret)
+                new KeyValuePair<string, string>("client_id", ModelFactory.API_KEY),
+                new KeyValuePair<string, string>("client_secret", ModelFactory.SECRET_KEY)
             };
 
             HttpResponseMessage response = client.PostAsync(authHost, new FormUrlEncodedContent(paraList)).Result;

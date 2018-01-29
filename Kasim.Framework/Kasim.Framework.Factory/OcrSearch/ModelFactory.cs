@@ -53,11 +53,11 @@ namespace Kasim.Framework.Factory.OcrSearch
     {
         // 调用getAccessToken()获取的 access_token建议根据expires_in 时间 设置缓存
         // 返回token示例
-        public static String TOKEN = "24.adda70c11b9786206253ddb70affdc46.2592000.1493524354.282335-1234567";
+        public static String TOKEN;// = "24.adda70c11b9786206253ddb70affdc46.2592000.1493524354.282335-1234567";
 
         // 百度云中开通对应服务应用的 API Key 建议开通应用的时候多选服务
-        public static readonly String ClientId = "百度云应用的AK";
+        public static readonly String API_KEY = "2xsGpG4dIDRoy5DL2a8gaSxm";
         // 百度云中开通对应服务应用的 Secret Key
-        public static readonly String ClientSecret = "百度云应用的SK";
+        public static readonly String SECRET_KEY = "PiNLuHlS7w34bU3z3Dh7h9ALgcGBSfeA";
     }
 }
