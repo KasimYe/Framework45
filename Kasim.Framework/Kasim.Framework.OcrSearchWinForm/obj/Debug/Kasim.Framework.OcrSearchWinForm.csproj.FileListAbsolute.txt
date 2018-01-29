@@ -1,0 +1,17 @@
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.OcrSearchWinForm.exe.config
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.OcrSearchWinForm.exe
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.OcrSearchWinForm.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.FrmMain.resources
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.Properties.Resources.resources
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.csproj.GenerateResource.Cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.csproj.CoreCompileInputs.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.exe
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.FrmCutter.resources
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Entity.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Common.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\log4net.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Entity.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Common.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\log4net.xml

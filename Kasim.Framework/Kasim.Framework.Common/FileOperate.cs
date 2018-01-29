@@ -43,8 +43,10 @@
 *=====================================================================*/
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -634,5 +636,22 @@ namespace Kasim.Framework.Common
         }
         #endregion
 
+        #region "图片的base64编码"
+        public static string GetFileBase64(string path)
+        {
+            Image img = Image.FromFile(path);
+            return GetFileBase64(img);
+        }
+
+        public static string GetFileBase64(Image img)
+        {
+            BinaryFormatter binFormatter = new BinaryFormatter();
+            MemoryStream memStream = new MemoryStream();
+            binFormatter.Serialize(memStream, img);
+            byte[] bytes = memStream.GetBuffer();
+            string base64 = Convert.ToBase64String(bytes);
+            return base64;
+        }
+        #endregion
     }
 }

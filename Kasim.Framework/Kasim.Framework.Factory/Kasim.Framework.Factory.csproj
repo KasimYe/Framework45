@@ -47,6 +47,7 @@
     <Compile Include="ConnectionFactory.cs" />
     <Compile Include="DALFactory.cs" />
     <Compile Include="ModelFactory.cs" />
+    <Compile Include="OcrSearch\ModelFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
