@@ -102,3 +102,5 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\obj\Debug\Kas
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\obj\Debug\Kasim.Framework.BLL.csproj.CoreCompileInputs.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\obj\Debug\Kasim.Framework.BLL.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\obj\Debug\Kasim.Framework.BLL.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\AipSdk.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\AipSdk.xml

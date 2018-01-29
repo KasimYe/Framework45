@@ -41,8 +41,10 @@
 * desc:
 *
 *=====================================================================*/
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -60,6 +62,7 @@ namespace Kasim.Framework.IBLL.OcrSearch
         /// 通用文字识别
         /// </summary>
         /// <returns></returns>
-        string General();
+        string General(Image image);
+        JObject GeneralBasic(Image image);
     }
 }

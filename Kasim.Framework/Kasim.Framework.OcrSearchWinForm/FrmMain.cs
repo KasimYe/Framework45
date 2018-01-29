@@ -1,19 +1,18 @@
-﻿using Kasim.Framework.Entity.OcrSearch;
+﻿using Kasim.Framework.BLL.OcrSearch;
+using Kasim.Framework.Entity.OcrSearch;
+using Kasim.Framework.IBLL.OcrSearch;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace Kasim.Framework.OcrSearchWinForm
 {
     public partial class FrmMain : Form
     {
-        private Bitmap _catchBmp;        
+        private Bitmap _catchBmp;
 
         public FrmMain()
         {
@@ -43,7 +42,7 @@ namespace Kasim.Framework.OcrSearchWinForm
                 Tag = this,
 
                 // 指示窗体的背景图片为屏幕图片
-                BackgroundImage = catchBmp,                
+                BackgroundImage = catchBmp,
                 Width = Screen.AllScreens[0].Bounds.Width,
                 Height = Screen.AllScreens[0].Bounds.Height
             };
@@ -51,6 +50,51 @@ namespace Kasim.Framework.OcrSearchWinForm
         }
 
         internal void ReadImageResult()
+        {
+            try
+            {
+                GetImage();
+                var json = baiduAi.GeneralBasic(_catchBmp);
+                var quest = question.GetQuestion(json);
+                //var result =string.Format("问题：{0}\r\n\r\n答案一：{1}\r\n答案二：{2}\r\n答案三：{3}",
+                //    quest.Question,quest.Answer1,quest.Answer2,quest.Answer3);
+                rtxtQuestion.Text = quest.Question;
+                rtxtAnswer1.Text = quest.Answer1;
+                rtxtAnswer2.Text = quest.Answer2;
+                rtxtAnswer3.Text = quest.Answer3;
+                GetSearch();
+            }
+            catch (Exception ex)
+            {
+                rtxtQuestion.Text = ex.Message;
+            }
+        }
+
+        private void GetSearch()
+        {
+            int a1, a2, a3;
+            a1 = question.GetSearchCount(string.Format("{0} {1}", rtxtQuestion.Text, rtxtAnswer1.Text));
+            a2 = question.GetSearchCount(string.Format("{0} {1}", rtxtQuestion.Text, rtxtAnswer2.Text));
+            a3 = question.GetSearchCount(string.Format("{0} {1}", rtxtQuestion.Text, rtxtAnswer3.Text));
+            lblAnswer1.Text = a1.ToString();
+            lblAnswer2.Text = a2.ToString();
+            lblAnswer3.Text = a3.ToString();
+            Dictionary<string, int> dic = new Dictionary<string, int>
+            {
+                { "答案一", a1 },
+                { "答案二", a2 },
+                { "答案三", a3 }
+            };
+            var dicSort = from objDic in dic orderby objDic.Value descending select objDic;
+            var strResult = "";
+            foreach (KeyValuePair<string, int> kvp in dicSort)
+            {
+                strResult += string.Format("{0} > ", kvp.Key);
+            }
+            lblResult.Text = strResult.Remove(strResult.LastIndexOf(">"), 2);
+        }
+
+        private void GetImage()
         {
             //截取设置的区域屏幕图片
             Bitmap _screenShots = new Bitmap(Screen.AllScreens[0].Bounds.Width, Screen.AllScreens[0].Bounds.Height);
@@ -74,13 +118,19 @@ namespace Kasim.Framework.OcrSearchWinForm
             gbQuestion.Width = Tools.CatchRectangleSize.Width;
             gbQuestion.Height = Tools.CatchRectangleSize.Height;
             gbQuestion.BackgroundImage = _catchBmp;
-
-            _catchBmp.Save(@"D:\output\cut.jpg");
         }
 
+        IBaiduAiBLL baiduAi = new BaiduAiBLL();
+        IQuestionBLL question = new QuestionBLL();
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            cboGames.SelectedIndex = 0;
+            TopMost = true;
+            //rtxtQuestion.Text = question.GetSearchCount("“在天愿作比翼鸟 在地愿为连理枝”,描述的是谁和谁的爱情故事事? 李隆基和杨玉环").ToString();
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            ReadImageResult();
         }
     }
 }
