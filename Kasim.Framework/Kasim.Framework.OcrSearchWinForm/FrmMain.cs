@@ -13,7 +13,7 @@ namespace Kasim.Framework.OcrSearchWinForm
     public partial class FrmMain : Form
     {
         private Bitmap _catchBmp;
-
+        private List<CutPic> _cutPics = new List<CutPic>();
         public FrmMain()
         {
             InitializeComponent();
@@ -125,12 +125,63 @@ namespace Kasim.Framework.OcrSearchWinForm
         private void FrmMain_Load(object sender, EventArgs e)
         {
             TopMost = true;
+            cboGames.SelectedIndex = 0;
             //rtxtQuestion.Text = question.GetSearchCount("“在天愿作比翼鸟 在地愿为连理枝”,描述的是谁和谁的爱情故事事? 李隆基和杨玉环").ToString();
         }
 
-        private void btnSubmit_Click(object sender, EventArgs e)
+
+        private void Submit(int qLine)
         {
+            var list = _cutPics.Where(x => x.Game == cboGames.Text && x.QuestLine == qLine).ToList();
+            if (list != null && list.Count > 0)
+            {
+                if (Tools.Saved)
+                {
+                    list[0].StartPoint = Tools.StartPoint;
+                    list[0].EndPoint = Tools.EndPoint;
+                    list[0].CatchRectangleSize = Tools.CatchRectangleSize;
+                    list[0].CatchRectangle = Tools.CatchRectangle;
+                    list[0].ScreenShots = Tools.ScreenShots;
+                    Tools.Saved = false;
+                }
+                else
+                {
+                    Tools.StartPoint = list[0].StartPoint;
+                    Tools.EndPoint = list[0].EndPoint;
+                    Tools.CatchRectangleSize = list[0].CatchRectangleSize;
+                    Tools.CatchRectangle = list[0].CatchRectangle;
+                    Tools.ScreenShots = list[0].ScreenShots;
+                }
+            }
+            else
+            {
+                _cutPics.Add(new CutPic
+                {
+                    Game = cboGames.Text,
+                    QuestLine = qLine,
+                    StartPoint = Tools.StartPoint,
+                    EndPoint = Tools.EndPoint,
+                    CatchRectangleSize = Tools.CatchRectangleSize,
+                    CatchRectangle = Tools.CatchRectangle,
+                    ScreenShots = Tools.ScreenShots
+                });
+                Tools.Saved = false;
+            }
             ReadImageResult();
+        }
+        private void BtnSubmit1_Click(object sender, EventArgs e)
+        {
+            Submit(1);
+        }
+
+        private void BtnSubmit2_Click(object sender, EventArgs e)
+        {
+            Submit(2);
+        }
+
+        private void BtnSubmit3_Click(object sender, EventArgs e)
+        {
+            Submit(3);
         }
     }
 }

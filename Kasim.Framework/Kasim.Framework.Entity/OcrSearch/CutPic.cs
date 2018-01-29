@@ -34,10 +34,10 @@
 * CLRVer.:4.0.30319.42000
 * machinenameDESKTOP-U288O1H
 * namespace:Kasim.Framework.Entity.OcrSearch
-* filename:Tools
-* guid:6af4ad6e-5a56-4dc2-b076-adf0df890db1
+* filename:CutPic
+* guid:e697e2e2-72d2-4143-a449-93070580c571
 * auth:lip86
-* date:2018-01-28 21:22:52
+* date:2018-01-29 17:55:05
 * desc:
 *
 *=====================================================================*/
@@ -50,26 +50,15 @@ using System.Threading.Tasks;
 
 namespace Kasim.Framework.Entity.OcrSearch
 {
-    public class Tools
+    public class CutPic
     {
-        /// <summary>
-        /// 截至坐标
-        /// </summary>
-        public static Point EndPoint;
-        /// <summary>
-        /// 起始坐标
-        /// </summary>
-        public static Point StartPoint;
-        public static Rectangle CatchRectangle;
-        /// <summary>
-        /// 截图的长和宽
-        /// </summary>
-        public static Size CatchRectangleSize;
-        /// <summary>
-        /// 屏幕图片
-        /// </summary>
-        public static Bitmap ScreenShots;
+        public string Game { get; set; }
+        public int QuestLine { get; set; }
+        public Point StartPoint { get; set; }
+        public Point EndPoint { get; set; }
+        public Size CatchRectangleSize { get; set; }
+        public Bitmap ScreenShots { get; set; }
+        public Rectangle CatchRectangle { get; set; }
 
-        public static bool Saved;
     }
 }
