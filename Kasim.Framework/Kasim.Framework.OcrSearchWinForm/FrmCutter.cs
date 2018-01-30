@@ -142,6 +142,7 @@ namespace Kasim.Framework.OcrSearchWinForm
                     {
                         //_frmMain.btnRead.Focus();
                         _frmMain.ReadImageResult();
+                        Tools.Saved = true;
                     }
                 }
 

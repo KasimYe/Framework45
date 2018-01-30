@@ -46,3 +46,17 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Newtonsoft.Json.xml
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.dll.config
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.BLL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.IBLL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Newtonsoft.Json.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.IDAL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\AipSdk.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\MySql.Data.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.BLL.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.IBLL.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Newtonsoft.Json.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.IDAL.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\AipSdk.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.dll.config

@@ -48,3 +48,5 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\obj\Debug\Ka
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\obj\Debug\Kasim.Framework.IBLL.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\Newtonsoft.Json.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\Newtonsoft.Json.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\Newtonsoft.Json.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\Newtonsoft.Json.xml
