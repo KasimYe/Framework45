@@ -172,3 +172,5 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj\Debug\Kasim.Framework.ZjyxcgWinForm.csproj.CoreCompileInputs.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj\Debug\Kasim.Framework.ZjyxcgWinForm.exe
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj\Debug\Kasim.Framework.ZjyxcgWinForm.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\AipSdk.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\AipSdk.xml
