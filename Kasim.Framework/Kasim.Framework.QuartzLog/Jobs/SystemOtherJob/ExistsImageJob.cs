@@ -32,49 +32,29 @@
 /*----------------------------------------------------------------
 ** Copyright (C) 2017 
 **
-** file：UpdateCompanyService
+** file：ExistsImageJob
 ** desc：
 ** 
 ** auth：KasimYe (KASIM)
-** date：2018-01-06 12:47:19
+** date：2018-02-06 15:35:38
 **
 ** Ver.：V1.0.0
 **----------------------------------------------------------------*/
 
+using Quartz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Quartz;
 
-namespace Kasim.Framework.QuartzLog.Jobs.CompanyJob
+namespace Kasim.Framework.QuartzLog.Jobs.SystemOtherJob
 {
-    public class UpdateCompanyService : JobService<UpdateCompanyJob>
+    public class ExistsImageJob : IJob
     {
-        protected override string JobName
+        public void Execute(IJobExecutionContext context)
         {
-            get
-            {
-                return "更新生产企业信息";
-            }
-        }
-
-        protected override string GroupName
-        {
-            get
-            {
-                return "更新生产企业作业处理";
-            }
-        }
-
-        protected override ITrigger GetTrigger()
-        {
-            var trigger = TriggerBuilder.Create()
-              .WithIdentity(JobName, GroupName)
-              .WithCronSchedule(ConstValue.GetCron("UpdateCompanyJobCron"))
-              .Build();
-            return trigger;
+            throw new NotImplementedException();
         }
     }
 }

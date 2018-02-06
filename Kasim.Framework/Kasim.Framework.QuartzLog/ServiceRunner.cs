@@ -63,6 +63,7 @@ namespace Kasim.Framework.QuartzLog
 
         public bool Start(HostControl hostControl)
         {
+            //药械采购平台任务
             new Jobs.ProcurecatalogJob.UpdateProcurecatalogService()
                 .AddJobToSchedule(scheduler);
             new Jobs.HospitalJob.UpdateHospitalService()
@@ -71,6 +72,10 @@ namespace Kasim.Framework.QuartzLog
                 .AddJobToSchedule(scheduler);
             new Jobs.OrderJob.UpdateOrderService()
                 .AddJobToSchedule(scheduler);
+            //日常系统任务
+            new Jobs.SystemOtherJob.ExistsImageService()
+                .AddJobToSchedule(scheduler);
+
             scheduler.Start();
             return true;
         }

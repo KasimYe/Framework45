@@ -51,57 +51,16 @@ using System.Threading.Tasks;
 namespace Kasim.Framework.QuartzLog
 {
     public class ConstValue
-    {             
-        public static string UpdateProcurecatalogJobCron
+    {
+        public static string GetCron(string cronName)
         {
-            get
+            var cron = ConfigurationManager.AppSettings["UpdateProcurecatalogJobCron"];
+            if (!string.IsNullOrWhiteSpace(cron))
             {
-                var cron = ConfigurationManager.AppSettings["UpdateProcurecatalogJobCron"];
-                if (!string.IsNullOrWhiteSpace(cron))
-                {
-                    return Convert.ToString(cron);
-                }
-                return "*/3 * * * * ?"; //如果没有配置默认触发器3秒触发一次
+                return Convert.ToString(cron);
             }
-        }
-
-        public static string UpdateHospitalJobCron {
-            get
-            {
-                var cron = ConfigurationManager.AppSettings["UpdateHospitalJobCron"];
-                if (!string.IsNullOrWhiteSpace(cron))
-                {
-                    return Convert.ToString(cron);
-                }
-                return "*/3 * * * * ?"; //如果没有配置默认触发器3秒触发一次
-            }
-        }
-
-        public static string UpdateCompanyJobCron
-        {
-            get
-            {
-                var cron = ConfigurationManager.AppSettings["UpdateCompanyJobCron"];
-                if (!string.IsNullOrWhiteSpace(cron))
-                {
-                    return Convert.ToString(cron);
-                }
-                return "*/3 * * * * ?"; //如果没有配置默认触发器3秒触发一次
-            }
-        }
-
-        public static string UpdateOrderJobCron
-        {
-            get
-            {
-                var cron = ConfigurationManager.AppSettings["UpdateOrderJobCron"];
-                if (!string.IsNullOrWhiteSpace(cron))
-                {
-                    return Convert.ToString(cron);
-                }
-                return "*/3 * * * * ?"; //如果没有配置默认触发器3秒触发一次
-            }
-        }
+            return "*/3 * * * * ?"; //如果没有配置默认触发器3秒触发一次
+        }       
         
     }
 }
