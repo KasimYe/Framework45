@@ -92,3 +92,10 @@ D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\Common.Lo
 D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\Common.Logging.Log4Net1211.xml
 D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\Quartz.pdb
 D:\Kasim\Framework\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\Quartz.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.csprojResolveAssemblyReference.cache
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.Form1.resources
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.Properties.Resources.resources
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.csproj.GenerateResource.Cache
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.csproj.CoreCompileInputs.cache
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.exe
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.pdb

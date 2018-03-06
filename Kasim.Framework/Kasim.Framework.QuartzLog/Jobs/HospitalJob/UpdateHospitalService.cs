@@ -72,7 +72,7 @@ namespace Kasim.Framework.QuartzLog.Jobs.HospitalJob
         {
             var trigger = TriggerBuilder.Create()
               .WithIdentity(JobName, GroupName)
-              .WithCronSchedule(ConstValue.UpdateHospitalJobCron)
+              .WithCronSchedule(ConstValue.GetCron("UpdateHospitalJobCron"))
               .Build();
             return trigger;
         }

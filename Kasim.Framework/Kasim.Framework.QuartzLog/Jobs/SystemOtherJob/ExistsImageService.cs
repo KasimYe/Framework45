@@ -32,31 +32,31 @@
 /*----------------------------------------------------------------
 ** Copyright (C) 2017 
 **
-** file：UpdateCompanyService
+** file：ExistsImageService
 ** desc：
 ** 
 ** auth：KasimYe (KASIM)
-** date：2018-01-06 12:47:19
+** date：2018-02-06 15:35:59
 **
 ** Ver.：V1.0.0
 **----------------------------------------------------------------*/
 
+using Quartz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Quartz;
 
-namespace Kasim.Framework.QuartzLog.Jobs.CompanyJob
+namespace Kasim.Framework.QuartzLog.Jobs.SystemOtherJob
 {
-    public class UpdateCompanyService : JobService<UpdateCompanyJob>
+    public class ExistsImageService: JobService<ExistsImageJob>
     {
         protected override string JobName
         {
             get
             {
-                return "更新生产企业信息";
+                return "检查服务器图片是否存在";
             }
         }
 
@@ -64,7 +64,7 @@ namespace Kasim.Framework.QuartzLog.Jobs.CompanyJob
         {
             get
             {
-                return "更新生产企业作业处理";
+                return "检查服务器图片是否存在作业处理";
             }
         }
 
@@ -72,7 +72,7 @@ namespace Kasim.Framework.QuartzLog.Jobs.CompanyJob
         {
             var trigger = TriggerBuilder.Create()
               .WithIdentity(JobName, GroupName)
-              .WithCronSchedule(ConstValue.GetCron("UpdateCompanyJobCron"))
+              .WithCronSchedule(ConstValue.GetCron("ExistsImageJobCron"))
               .Build();
             return trigger;
         }

@@ -72,7 +72,7 @@ namespace Kasim.Framework.QuartzLog.Jobs.OrderJob
         {
             var trigger = TriggerBuilder.Create()
               .WithIdentity(JobName, GroupName)
-              .WithCronSchedule(ConstValue.UpdateOrderJobCron)
+              .WithCronSchedule(ConstValue.GetCron("UpdateOrderJobCron"))
               .Build();
             return trigger;
         }

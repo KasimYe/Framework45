@@ -88,6 +88,8 @@
     <Compile Include="Jobs\OrderJob\UpdateOrderService.cs" />
     <Compile Include="Jobs\ProcurecatalogJob\UpdateProcurecatalogJob.cs" />
     <Compile Include="Jobs\ProcurecatalogJob\UpdateProcurecatalogService.cs" />
+    <Compile Include="Jobs\SystemOtherJob\ExistsImageJob.cs" />
+    <Compile Include="Jobs\SystemOtherJob\ExistsImageService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceRunner.cs" />
