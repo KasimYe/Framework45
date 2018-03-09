@@ -141,3 +141,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Deb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\Kasim.Framework.IDAL.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\AipSdk.xml
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\bin\Debug\Dapper.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.QuartzLog\obj\Debug\Kasim.Framework.QuartzLog.csproj.CopyComplete

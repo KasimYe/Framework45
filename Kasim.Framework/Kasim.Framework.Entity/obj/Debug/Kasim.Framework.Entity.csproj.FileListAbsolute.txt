@@ -38,3 +38,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csproj.CoreCompileInputs.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csproj.CopyComplete

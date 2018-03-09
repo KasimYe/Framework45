@@ -78,3 +78,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.MySQLDAL\obj\Debu
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.MySQLDAL\obj\Debug\Kasim.Framework.MySQLDAL.csproj.CoreCompileInputs.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.MySQLDAL\obj\Debug\Kasim.Framework.MySQLDAL.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.MySQLDAL\obj\Debug\Kasim.Framework.MySQLDAL.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.MySQLDAL\obj\Debug\Kasim.Framework.MySQLDAL.csproj.CopyComplete
