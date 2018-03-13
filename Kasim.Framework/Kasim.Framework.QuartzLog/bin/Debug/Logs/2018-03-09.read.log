@@ -1,0 +1,10 @@
+
+[INFO] [1]
+[13:50:27,607] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[13:50:27,638] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000

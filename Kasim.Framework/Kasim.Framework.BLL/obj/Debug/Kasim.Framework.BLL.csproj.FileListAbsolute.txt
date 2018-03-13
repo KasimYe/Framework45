@@ -106,3 +106,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\Aip
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\AipSdk.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\AipSdk.dll
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\AipSdk.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\obj\Debug\Kasim.Framework.BLL.csproj.CopyComplete

@@ -176,6 +176,11 @@ namespace Kasim.Framework.ZjyxcgWinForm
                 case "C017获取支付明细订单":
                     break;
                 case "C018票据上传":
+                    ShowFormAgain(menu.Text, new FrmInvoice {
+                        MdiParent = this,
+                        WindowState = FormWindowState.Maximized,
+                        ShowIcon = false
+                    });
                     break;
                 case "C019销售清单上传":
                     break;
