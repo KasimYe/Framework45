@@ -174,3 +174,5 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj\Debug\Kasim.Framework.ZjyxcgWinForm.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\AipSdk.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\AipSdk.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\AipSdk.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\AipSdk.xml
