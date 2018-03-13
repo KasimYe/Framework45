@@ -270,3 +270,6 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\obj\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\obj\Debug\Kasim.Framework.ZjyxcgWebApi.csproj.CoreCompileInputs.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\obj\Debug\Kasim.Framework.ZjyxcgWebApi.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\obj\Debug\Kasim.Framework.ZjyxcgWebApi.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\bin\AipSdk.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\bin\AipSdk.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWebApi\obj\Debug\Kasim.Framework.ZjyxcgWebApi.csproj.CopyComplete

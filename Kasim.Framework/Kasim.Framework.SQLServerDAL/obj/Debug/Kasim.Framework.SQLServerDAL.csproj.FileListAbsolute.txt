@@ -50,3 +50,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.csproj.CoreCompileInputs.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLServerDAL\obj\Debug\Kasim.Framework.SQLServerDAL.csproj.CopyComplete

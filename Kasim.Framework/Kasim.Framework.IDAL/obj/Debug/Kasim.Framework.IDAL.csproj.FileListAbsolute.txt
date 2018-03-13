@@ -47,3 +47,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\obj\Debug\Ka
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\obj\Debug\Kasim.Framework.IDAL.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\obj\Debug\Kasim.Framework.IDAL.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\obj\Debug\Kasim.Framework.IDAL.csproj.CopyComplete
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\obj\Debug\Kasim.Framework.IDAL.csproj.CopyComplete

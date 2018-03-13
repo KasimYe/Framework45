@@ -1,0 +1,6 @@
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\bin\Debug\Kasim.Framework.SQLiteDAL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\bin\Debug\Kasim.Framework.SQLiteDAL.pdb
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.csproj.CoreCompileInputs.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.pdb
