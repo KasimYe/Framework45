@@ -39,3 +39,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csproj.CopyComplete
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Entity\obj\Debug\Kasim.Framework.Entity.csproj.CopyComplete

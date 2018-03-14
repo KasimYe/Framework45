@@ -60,3 +60,4 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSe
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\AipSdk.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.pdb
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\bin\Debug\Kasim.Framework.Factory.dll.config
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.OcrSearchWinForm\obj\Debug\Kasim.Framework.OcrSearchWinForm.csproj.CopyComplete
