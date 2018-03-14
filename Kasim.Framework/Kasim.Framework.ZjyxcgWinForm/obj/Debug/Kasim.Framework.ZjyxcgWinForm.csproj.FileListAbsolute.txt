@@ -257,3 +257,5 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.Win.C1TrueDBGrid.4.xml

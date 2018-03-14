@@ -55,6 +55,8 @@
     <Compile Include="QuartzLog\ErrorListEntity_Order.cs" />
     <Compile Include="QuartzLog\ErrorListEntity_Return.cs" />
     <Compile Include="QuartzLog\ErrorListEntity_Sale.cs" />
+    <Compile Include="QuartzLog\File.cs" />
+    <Compile Include="QuartzLog\FileModel.cs" />
     <Compile Include="QuartzLog\Invoice.cs" />
     <Compile Include="QuartzLog\Parent\BaseEntity.cs" />
     <Compile Include="QuartzLog\CodeEnum.cs" />

@@ -53,6 +53,13 @@ namespace Kasim.Framework.Factory
         static public PopMsg FMsg = new PopMsg();
         #endregion
 
+        #region "其他参数"
+        /// <summary>
+        /// 图片服务器Url
+        /// </summary>
+        static public readonly string ImgPUrl= ConfigurationManager.AppSettings["ImgPUrl"];
+        #endregion
+
         #endregion
 
     }

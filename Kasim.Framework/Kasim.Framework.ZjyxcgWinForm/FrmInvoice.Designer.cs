@@ -32,27 +32,27 @@
             this.c1InputPanel1 = new C1.Win.C1InputPanel.C1InputPanel();
             this.inputGroupHeader1 = new C1.Win.C1InputPanel.InputGroupHeader();
             this.inputLabel1 = new C1.Win.C1InputPanel.InputLabel();
-            this.inputTextBox1 = new C1.Win.C1InputPanel.InputTextBox();
+            this.txtInvoiceCode = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel2 = new C1.Win.C1InputPanel.InputLabel();
-            this.inputTextBox2 = new C1.Win.C1InputPanel.InputTextBox();
+            this.txtInvoiceID = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel3 = new C1.Win.C1InputPanel.InputLabel();
-            this.inputDatePicker1 = new C1.Win.C1InputPanel.InputDatePicker();
+            this.dpInvoiceDate = new C1.Win.C1InputPanel.InputDatePicker();
             this.inputLabel4 = new C1.Win.C1InputPanel.InputLabel();
             this.inputTextBox3 = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel5 = new C1.Win.C1InputPanel.InputLabel();
             this.inputTextBox4 = new C1.Win.C1InputPanel.InputTextBox();
-            this.inputLabel6 = new C1.Win.C1InputPanel.InputLabel();
-            this.inputTextBox5 = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel7 = new C1.Win.C1InputPanel.InputLabel();
             this.inputTextBox6 = new C1.Win.C1InputPanel.InputTextBox();
+            this.inputLabel6 = new C1.Win.C1InputPanel.InputLabel();
+            this.inputTextBox5 = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel8 = new C1.Win.C1InputPanel.InputLabel();
             this.inputTextBox7 = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel9 = new C1.Win.C1InputPanel.InputLabel();
             this.inputTextBox8 = new C1.Win.C1InputPanel.InputTextBox();
+            this.btnRequestImage = new C1.Win.C1InputPanel.InputButton();
+            this.btnInsertData = new C1.Win.C1InputPanel.InputButton();
+            this.btnSubmit = new C1.Win.C1InputPanel.InputButton();
             this.dgd = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
-            this.inputButton1 = new C1.Win.C1InputPanel.InputButton();
-            this.inputButton2 = new C1.Win.C1InputPanel.InputButton();
-            this.inputButton3 = new C1.Win.C1InputPanel.InputButton();
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgd)).BeginInit();
             this.SuspendLayout();
@@ -63,11 +63,11 @@
             this.c1InputPanel1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.c1InputPanel1.Items.Add(this.inputGroupHeader1);
             this.c1InputPanel1.Items.Add(this.inputLabel1);
-            this.c1InputPanel1.Items.Add(this.inputTextBox1);
+            this.c1InputPanel1.Items.Add(this.txtInvoiceCode);
             this.c1InputPanel1.Items.Add(this.inputLabel2);
-            this.c1InputPanel1.Items.Add(this.inputTextBox2);
+            this.c1InputPanel1.Items.Add(this.txtInvoiceID);
             this.c1InputPanel1.Items.Add(this.inputLabel3);
-            this.c1InputPanel1.Items.Add(this.inputDatePicker1);
+            this.c1InputPanel1.Items.Add(this.dpInvoiceDate);
             this.c1InputPanel1.Items.Add(this.inputLabel4);
             this.c1InputPanel1.Items.Add(this.inputTextBox3);
             this.c1InputPanel1.Items.Add(this.inputLabel5);
@@ -80,9 +80,9 @@
             this.c1InputPanel1.Items.Add(this.inputTextBox7);
             this.c1InputPanel1.Items.Add(this.inputLabel9);
             this.c1InputPanel1.Items.Add(this.inputTextBox8);
-            this.c1InputPanel1.Items.Add(this.inputButton1);
-            this.c1InputPanel1.Items.Add(this.inputButton2);
-            this.c1InputPanel1.Items.Add(this.inputButton3);
+            this.c1InputPanel1.Items.Add(this.btnRequestImage);
+            this.c1InputPanel1.Items.Add(this.btnInsertData);
+            this.c1InputPanel1.Items.Add(this.btnSubmit);
             this.c1InputPanel1.Location = new System.Drawing.Point(0, 0);
             this.c1InputPanel1.Name = "c1InputPanel1";
             this.c1InputPanel1.Size = new System.Drawing.Size(846, 150);
@@ -98,29 +98,29 @@
             this.inputLabel1.Name = "inputLabel1";
             this.inputLabel1.Text = "发票代码:";
             // 
-            // inputTextBox1
+            // txtInvoiceCode
             // 
-            this.inputTextBox1.Break = C1.Win.C1InputPanel.BreakType.None;
-            this.inputTextBox1.Name = "inputTextBox1";
+            this.txtInvoiceCode.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.txtInvoiceCode.Name = "txtInvoiceCode";
             // 
             // inputLabel2
             // 
             this.inputLabel2.Name = "inputLabel2";
             this.inputLabel2.Text = "发票号码:";
             // 
-            // inputTextBox2
+            // txtInvoiceID
             // 
-            this.inputTextBox2.Break = C1.Win.C1InputPanel.BreakType.None;
-            this.inputTextBox2.Name = "inputTextBox2";
+            this.txtInvoiceID.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.txtInvoiceID.Name = "txtInvoiceID";
             // 
             // inputLabel3
             // 
             this.inputLabel3.Name = "inputLabel3";
             this.inputLabel3.Text = "开票日期:";
             // 
-            // inputDatePicker1
+            // dpInvoiceDate
             // 
-            this.inputDatePicker1.Name = "inputDatePicker1";
+            this.dpInvoiceDate.Name = "dpInvoiceDate";
             // 
             // inputLabel4
             // 
@@ -142,15 +142,6 @@
             this.inputTextBox4.Break = C1.Win.C1InputPanel.BreakType.None;
             this.inputTextBox4.Name = "inputTextBox4";
             // 
-            // inputLabel6
-            // 
-            this.inputLabel6.Name = "inputLabel6";
-            this.inputLabel6.Text = "购买备注:";
-            // 
-            // inputTextBox5
-            // 
-            this.inputTextBox5.Name = "inputTextBox5";
-            // 
             // inputLabel7
             // 
             this.inputLabel7.Name = "inputLabel7";
@@ -160,6 +151,15 @@
             // 
             this.inputTextBox6.Break = C1.Win.C1InputPanel.BreakType.None;
             this.inputTextBox6.Name = "inputTextBox6";
+            // 
+            // inputLabel6
+            // 
+            this.inputLabel6.Name = "inputLabel6";
+            this.inputLabel6.Text = "购买备注:";
+            // 
+            // inputTextBox5
+            // 
+            this.inputTextBox5.Name = "inputTextBox5";
             // 
             // inputLabel8
             // 
@@ -182,6 +182,32 @@
             this.inputTextBox8.Name = "inputTextBox8";
             this.inputTextBox8.Width = 200;
             // 
+            // btnRequestImage
+            // 
+            this.btnRequestImage.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.btnRequestImage.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.image_link;
+            this.btnRequestImage.Name = "btnRequestImage";
+            this.btnRequestImage.Text = "RequestImage";
+            this.btnRequestImage.Width = 130;
+            this.btnRequestImage.Click += new System.EventHandler(this.BtnRequestImage_Click);
+            // 
+            // btnInsertData
+            // 
+            this.btnInsertData.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.btnInsertData.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.save_data;
+            this.btnInsertData.Name = "btnInsertData";
+            this.btnInsertData.Text = "InsertData";
+            this.btnInsertData.Width = 100;
+            this.btnInsertData.Click += new System.EventHandler(this.BtnInsertData_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.upload_for_mac;
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.Width = 80;
+            this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
+            // 
             // dgd
             // 
             this.dgd.CaptionHeight = 18;
@@ -199,29 +225,6 @@
             this.dgd.TabIndex = 1;
             this.dgd.Text = "c1TrueDBGrid1";
             // 
-            // inputButton1
-            // 
-            this.inputButton1.Break = C1.Win.C1InputPanel.BreakType.None;
-            this.inputButton1.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.image_link;
-            this.inputButton1.Name = "inputButton1";
-            this.inputButton1.Text = "RequestImage";
-            this.inputButton1.Width = 130;
-            // 
-            // inputButton2
-            // 
-            this.inputButton2.Break = C1.Win.C1InputPanel.BreakType.None;
-            this.inputButton2.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.save_data;
-            this.inputButton2.Name = "inputButton2";
-            this.inputButton2.Text = "InsertData";
-            this.inputButton2.Width = 100;
-            // 
-            // inputButton3
-            // 
-            this.inputButton3.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.upload_for_mac;
-            this.inputButton3.Name = "inputButton3";
-            this.inputButton3.Text = "Submit";
-            this.inputButton3.Width = 80;
-            // 
             // FrmInvoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -231,6 +234,7 @@
             this.Controls.Add(this.c1InputPanel1);
             this.Name = "FrmInvoice";
             this.Text = "C018票据上传";
+            this.Load += new System.EventHandler(this.FrmInvoice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgd)).EndInit();
             this.ResumeLayout(false);
@@ -242,11 +246,11 @@
         private C1.Win.C1InputPanel.C1InputPanel c1InputPanel1;
         private C1.Win.C1InputPanel.InputGroupHeader inputGroupHeader1;
         private C1.Win.C1InputPanel.InputLabel inputLabel1;
-        private C1.Win.C1InputPanel.InputTextBox inputTextBox1;
+        private C1.Win.C1InputPanel.InputTextBox txtInvoiceCode;
         private C1.Win.C1InputPanel.InputLabel inputLabel2;
-        private C1.Win.C1InputPanel.InputTextBox inputTextBox2;
+        private C1.Win.C1InputPanel.InputTextBox txtInvoiceID;
         private C1.Win.C1InputPanel.InputLabel inputLabel3;
-        private C1.Win.C1InputPanel.InputDatePicker inputDatePicker1;
+        private C1.Win.C1InputPanel.InputDatePicker dpInvoiceDate;
         private C1.Win.C1InputPanel.InputLabel inputLabel4;
         private C1.Win.C1InputPanel.InputTextBox inputTextBox3;
         private C1.Win.C1InputPanel.InputLabel inputLabel5;
@@ -259,9 +263,9 @@
         private C1.Win.C1InputPanel.InputTextBox inputTextBox7;
         private C1.Win.C1InputPanel.InputLabel inputLabel9;
         private C1.Win.C1InputPanel.InputTextBox inputTextBox8;
-        private C1.Win.C1InputPanel.InputButton inputButton1;
-        private C1.Win.C1InputPanel.InputButton inputButton2;
-        private C1.Win.C1InputPanel.InputButton inputButton3;
+        private C1.Win.C1InputPanel.InputButton btnRequestImage;
+        private C1.Win.C1InputPanel.InputButton btnInsertData;
+        private C1.Win.C1InputPanel.InputButton btnSubmit;
         private C1.Win.C1TrueDBGrid.C1TrueDBGrid dgd;
     }
 }

@@ -64,7 +64,7 @@ namespace Kasim.Framework.Common
         public MySecurity()
         {
             ///默认密码
-            key = "0123456789";
+            key = "yss.yh";
         }
         private string key; //默认密钥
 
@@ -94,8 +94,8 @@ namespace Kasim.Framework.Common
             DESCryptoServiceProvider des = new DESCryptoServiceProvider();
             if (keyStr == "")
                 keyStr = key;
-            byte[] inputByteArray = Encoding.Default.GetBytes(inputStr);
-            byte[] keyByteArray = Encoding.Default.GetBytes(keyStr);
+            byte[] inputByteArray = Encoding.UTF8.GetBytes(inputStr);
+            byte[] keyByteArray = Encoding.UTF8.GetBytes(keyStr);
             SHA1 ha = new SHA1Managed();
             byte[] hb = ha.ComputeHash(keyByteArray);
             sKey = new byte[8];
@@ -152,7 +152,7 @@ namespace Kasim.Framework.Common
             byte[] inputByteArray = new byte[fs.Length];
             fs.Read(inputByteArray, 0, (int)fs.Length);
             fs.Close();
-            byte[] keyByteArray = Encoding.Default.GetBytes(keyStr);
+            byte[] keyByteArray = Encoding.UTF8.GetBytes(keyStr);
             SHA1 ha = new SHA1Managed();
             byte[] hb = ha.ComputeHash(keyByteArray);
             sKey = new byte[8];
@@ -222,7 +222,7 @@ namespace Kasim.Framework.Common
                 int i = (Convert.ToInt32(inputStr.Substring(x * 2, 2), 16));
                 inputByteArray[x] = (byte)i;
             }
-            byte[] keyByteArray = Encoding.Default.GetBytes(keyStr);
+            byte[] keyByteArray = Encoding.UTF8.GetBytes(keyStr);
             SHA1 ha = new SHA1Managed();
             byte[] hb = ha.ComputeHash(keyByteArray);
             sKey = new byte[8];
@@ -238,7 +238,7 @@ namespace Kasim.Framework.Common
             cs.Write(inputByteArray, 0, inputByteArray.Length);
             cs.FlushFinalBlock();
             StringBuilder ret = new StringBuilder();
-            return System.Text.Encoding.Default.GetString(ms.ToArray());
+            return System.Text.Encoding.UTF8.GetString(ms.ToArray());
         }
         #endregion
 
@@ -259,7 +259,7 @@ namespace Kasim.Framework.Common
             byte[] inputByteArray = new byte[fs.Length];
             fs.Read(inputByteArray, 0, (int)fs.Length);
             fs.Close();
-            byte[] keyByteArray = Encoding.Default.GetBytes(keyStr);
+            byte[] keyByteArray = Encoding.UTF8.GetBytes(keyStr);
             SHA1 ha = new SHA1Managed();
             byte[] hb = ha.ComputeHash(keyByteArray);
             sKey = new byte[8];
@@ -392,7 +392,7 @@ namespace Kasim.Framework.Common
                                             'o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7',
                                             '8','9','+','/','='};
                 byte empty = (byte)0;
-                ArrayList byteMessage = new ArrayList(Encoding.Default.GetBytes(text));
+                ArrayList byteMessage = new ArrayList(Encoding.UTF8.GetBytes(text));
                 StringBuilder outmessage;
                 int messageLen = byteMessage.Count;
                 int page = messageLen / 3;
@@ -497,7 +497,7 @@ namespace Kasim.Framework.Common
                         outMessage.Add(outstr[2]);
                 }
                 byte[] outbyte = (byte[])outMessage.ToArray(Type.GetType("System.Byte"));
-                return Encoding.Default.GetString(outbyte);
+                return Encoding.UTF8.GetString(outbyte);
             }
             catch (Exception ex)
             {
