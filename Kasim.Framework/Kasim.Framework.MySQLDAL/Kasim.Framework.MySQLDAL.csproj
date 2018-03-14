@@ -48,6 +48,7 @@
     <Compile Include="QuartzLog\CompanyDAL.cs" />
     <Compile Include="QuartzLog\DistributionDAL.cs" />
     <Compile Include="QuartzLog\HospitalDAL.cs" />
+    <Compile Include="QuartzLog\InvoiceDAL.cs" />
     <Compile Include="QuartzLog\OrderDAL.cs" />
     <Compile Include="QuartzLog\ProcurecatalogDAL.cs" />
     <Compile Include="QuartzLog\ReturnDAL.cs" />

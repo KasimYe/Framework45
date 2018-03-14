@@ -45,6 +45,7 @@ using Kasim.Framework.Common;
 using Kasim.Framework.Entity.QuartzLog;
 using Kasim.Framework.Factory;
 using Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug;
+using Kasim.Framework.IDAL.QuartzLog;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -56,6 +57,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
 {
     public class InvoiceBLL : IInvoiceBLL
     {
+        IInvoiceDAL dal = DALFactory.CreateInvoiceDAL();
         public ReturnEntity<ErrorListEntity_Invoice, Invoice> SubmitInvoice(string invoiceInfo)
         {
             try
@@ -78,6 +80,11 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
                 FlashLogger.Error(ex.Message);
                 return null;
             }
+        }
+
+        public int WriteBackInvoiceId(string companyPrimaryKey, string id)
+        {
+            return dal.SetInvoiceId(companyPrimaryKey, id);
         }
     }
 }

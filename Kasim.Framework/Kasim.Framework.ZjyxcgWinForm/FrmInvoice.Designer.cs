@@ -49,12 +49,20 @@
             this.inputTextBox7 = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel9 = new C1.Win.C1InputPanel.InputLabel();
             this.inputTextBox8 = new C1.Win.C1InputPanel.InputTextBox();
+            this.inputGroupHeader2 = new C1.Win.C1InputPanel.InputGroupHeader();
+            this.inputLabel10 = new C1.Win.C1InputPanel.InputLabel();
+            this.inputDatePicker1 = new C1.Win.C1InputPanel.InputDatePicker();
+            this.inputLabel11 = new C1.Win.C1InputPanel.InputLabel();
+            this.inputDatePicker2 = new C1.Win.C1InputPanel.InputDatePicker();
+            this.dgd = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
             this.btnRequestImage = new C1.Win.C1InputPanel.InputButton();
             this.btnInsertData = new C1.Win.C1InputPanel.InputButton();
             this.btnSubmit = new C1.Win.C1InputPanel.InputButton();
-            this.dgd = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
+            this.inputButton1 = new C1.Win.C1InputPanel.InputButton();
+            this.ctxtJson = new C1.Win.C1Input.C1TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ctxtJson)).BeginInit();
             this.SuspendLayout();
             // 
             // c1InputPanel1
@@ -83,9 +91,15 @@
             this.c1InputPanel1.Items.Add(this.btnRequestImage);
             this.c1InputPanel1.Items.Add(this.btnInsertData);
             this.c1InputPanel1.Items.Add(this.btnSubmit);
+            this.c1InputPanel1.Items.Add(this.inputGroupHeader2);
+            this.c1InputPanel1.Items.Add(this.inputLabel10);
+            this.c1InputPanel1.Items.Add(this.inputDatePicker1);
+            this.c1InputPanel1.Items.Add(this.inputLabel11);
+            this.c1InputPanel1.Items.Add(this.inputDatePicker2);
+            this.c1InputPanel1.Items.Add(this.inputButton1);
             this.c1InputPanel1.Location = new System.Drawing.Point(0, 0);
             this.c1InputPanel1.Name = "c1InputPanel1";
-            this.c1InputPanel1.Size = new System.Drawing.Size(846, 150);
+            this.c1InputPanel1.Size = new System.Drawing.Size(846, 197);
             this.c1InputPanel1.TabIndex = 0;
             // 
             // inputGroupHeader1
@@ -182,6 +196,48 @@
             this.inputTextBox8.Name = "inputTextBox8";
             this.inputTextBox8.Width = 200;
             // 
+            // inputGroupHeader2
+            // 
+            this.inputGroupHeader2.Name = "inputGroupHeader2";
+            this.inputGroupHeader2.Text = "搜索";
+            // 
+            // inputLabel10
+            // 
+            this.inputLabel10.Name = "inputLabel10";
+            this.inputLabel10.Text = "起始日期:";
+            // 
+            // inputDatePicker1
+            // 
+            this.inputDatePicker1.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.inputDatePicker1.Name = "inputDatePicker1";
+            // 
+            // inputLabel11
+            // 
+            this.inputLabel11.Name = "inputLabel11";
+            this.inputLabel11.Text = "截至日期:";
+            // 
+            // inputDatePicker2
+            // 
+            this.inputDatePicker2.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.inputDatePicker2.Name = "inputDatePicker2";
+            // 
+            // dgd
+            // 
+            this.dgd.CaptionHeight = 18;
+            this.dgd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgd.Location = new System.Drawing.Point(0, 197);
+            this.dgd.Name = "dgd";
+            this.dgd.PreviewInfo.Caption = "PrintPreview窗口";
+            this.dgd.PreviewInfo.Location = new System.Drawing.Point(0, 0);
+            this.dgd.PreviewInfo.Size = new System.Drawing.Size(0, 0);
+            this.dgd.PreviewInfo.ZoomFactor = 75D;
+            this.dgd.PrintInfo.PageSettings = ((System.Drawing.Printing.PageSettings)(resources.GetObject("dgd.PrintInfo.PageSettings")));
+            this.dgd.PropBag = resources.GetString("dgd.PropBag");
+            this.dgd.RowHeight = 16;
+            this.dgd.Size = new System.Drawing.Size(846, 203);
+            this.dgd.TabIndex = 1;
+            this.dgd.Text = "c1TrueDBGrid1";
+            // 
             // btnRequestImage
             // 
             this.btnRequestImage.Break = C1.Win.C1InputPanel.BreakType.None;
@@ -208,22 +264,23 @@
             this.btnSubmit.Width = 80;
             this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
-            // dgd
+            // inputButton1
             // 
-            this.dgd.CaptionHeight = 18;
-            this.dgd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgd.Location = new System.Drawing.Point(0, 150);
-            this.dgd.Name = "dgd";
-            this.dgd.PreviewInfo.Caption = "PrintPreview窗口";
-            this.dgd.PreviewInfo.Location = new System.Drawing.Point(0, 0);
-            this.dgd.PreviewInfo.Size = new System.Drawing.Size(0, 0);
-            this.dgd.PreviewInfo.ZoomFactor = 75D;
-            this.dgd.PrintInfo.PageSettings = ((System.Drawing.Printing.PageSettings)(resources.GetObject("dgd.PrintInfo.PageSettings")));
-            this.dgd.PropBag = resources.GetString("dgd.PropBag");
-            this.dgd.RowHeight = 16;
-            this.dgd.Size = new System.Drawing.Size(846, 402);
-            this.dgd.TabIndex = 1;
-            this.dgd.Text = "c1TrueDBGrid1";
+            this.inputButton1.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.table_tab_search;
+            this.inputButton1.Name = "inputButton1";
+            this.inputButton1.Text = "Search";
+            this.inputButton1.Width = 80;
+            // 
+            // ctxtJson
+            // 
+            this.ctxtJson.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ctxtJson.Location = new System.Drawing.Point(0, 400);
+            this.ctxtJson.Multiline = true;
+            this.ctxtJson.Name = "ctxtJson";
+            this.ctxtJson.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.ctxtJson.Size = new System.Drawing.Size(846, 152);
+            this.ctxtJson.TabIndex = 2;
+            this.ctxtJson.Tag = null;
             // 
             // FrmInvoice
             // 
@@ -231,12 +288,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(846, 552);
             this.Controls.Add(this.dgd);
+            this.Controls.Add(this.ctxtJson);
             this.Controls.Add(this.c1InputPanel1);
             this.Name = "FrmInvoice";
             this.Text = "C018票据上传";
             this.Load += new System.EventHandler(this.FrmInvoice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ctxtJson)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -267,5 +326,12 @@
         private C1.Win.C1InputPanel.InputButton btnInsertData;
         private C1.Win.C1InputPanel.InputButton btnSubmit;
         private C1.Win.C1TrueDBGrid.C1TrueDBGrid dgd;
+        private C1.Win.C1InputPanel.InputGroupHeader inputGroupHeader2;
+        private C1.Win.C1InputPanel.InputLabel inputLabel10;
+        private C1.Win.C1InputPanel.InputDatePicker inputDatePicker1;
+        private C1.Win.C1InputPanel.InputLabel inputLabel11;
+        private C1.Win.C1InputPanel.InputDatePicker inputDatePicker2;
+        private C1.Win.C1InputPanel.InputButton inputButton1;
+        private C1.Win.C1Input.C1TextBox ctxtJson;
     }
 }
