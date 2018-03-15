@@ -76,5 +76,12 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         /// </param>
         /// <returns></returns>
         ReturnEntity<ErrorListEntity_Invoice, Invoice> SubmitInvoice(string invoiceInfo);
+        /// <summary>
+        /// 回写采购中心发票ID
+        /// </summary>
+        /// <param name="companyPrimaryKey">企业发票主键</param>
+        /// <param name="id">中心发票编号</param>
+        /// <returns></returns>
+        int WriteBackInvoiceId(string companyPrimaryKey, string id);
     }
 }

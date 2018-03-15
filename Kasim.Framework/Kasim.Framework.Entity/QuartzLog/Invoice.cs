@@ -95,5 +95,9 @@ namespace Kasim.Framework.Entity.QuartzLog
         /// 发票扫描件的 MD5 值，可参照程序示例 5.3 、5.4varchar(36)
         /// </summary>
         public string PicMD5 { get; set; }
+        /// <summary>
+        /// 中心返回发票编号
+        /// </summary>
+        public string Id { get; set; }
     }
 }

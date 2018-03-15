@@ -89,6 +89,12 @@ namespace Kasim.Framework.Factory
             return (IWareHouseDAL)Assembly.Load(_path).CreateInstance(className);
         }
 
+        public static IInvoiceDAL CreateInvoiceDAL()
+        {
+            string className = _path + ".QuartzLog.InvoiceDAL";
+            return (IInvoiceDAL)Assembly.Load(_path).CreateInstance(className);
+        }
+
         public static IOrderDAL CreateOrderDAL()
         {
             string className = _path + ".QuartzLog.OrderDAL";
