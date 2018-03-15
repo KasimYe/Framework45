@@ -37,6 +37,8 @@
             this.txtInvoiceID = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel3 = new C1.Win.C1InputPanel.InputLabel();
             this.dpInvoiceDate = new C1.Win.C1InputPanel.InputDatePicker();
+            this.inputLabel12 = new C1.Win.C1InputPanel.InputLabel();
+            this.cboInvoiceType = new C1.Win.C1InputPanel.InputComboBox();
             this.inputLabel4 = new C1.Win.C1InputPanel.InputLabel();
             this.txtSaleID = new C1.Win.C1InputPanel.InputTextBox();
             this.inputLabel5 = new C1.Win.C1InputPanel.InputLabel();
@@ -54,14 +56,12 @@
             this.btnSubmit = new C1.Win.C1InputPanel.InputButton();
             this.inputGroupHeader2 = new C1.Win.C1InputPanel.InputGroupHeader();
             this.inputLabel10 = new C1.Win.C1InputPanel.InputLabel();
-            this.inputDatePicker1 = new C1.Win.C1InputPanel.InputDatePicker();
+            this.dpStartDate = new C1.Win.C1InputPanel.InputDatePicker();
             this.inputLabel11 = new C1.Win.C1InputPanel.InputLabel();
-            this.inputDatePicker2 = new C1.Win.C1InputPanel.InputDatePicker();
-            this.inputButton1 = new C1.Win.C1InputPanel.InputButton();
+            this.dpEndDate = new C1.Win.C1InputPanel.InputDatePicker();
+            this.btnSearch = new C1.Win.C1InputPanel.InputButton();
             this.dgd = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
             this.ctxtJson = new C1.Win.C1Input.C1TextBox();
-            this.cboInvoiceType = new C1.Win.C1InputPanel.InputComboBox();
-            this.inputLabel12 = new C1.Win.C1InputPanel.InputLabel();
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ctxtJson)).BeginInit();
@@ -97,10 +97,10 @@
             this.c1InputPanel1.Items.Add(this.btnSubmit);
             this.c1InputPanel1.Items.Add(this.inputGroupHeader2);
             this.c1InputPanel1.Items.Add(this.inputLabel10);
-            this.c1InputPanel1.Items.Add(this.inputDatePicker1);
+            this.c1InputPanel1.Items.Add(this.dpStartDate);
             this.c1InputPanel1.Items.Add(this.inputLabel11);
-            this.c1InputPanel1.Items.Add(this.inputDatePicker2);
-            this.c1InputPanel1.Items.Add(this.inputButton1);
+            this.c1InputPanel1.Items.Add(this.dpEndDate);
+            this.c1InputPanel1.Items.Add(this.btnSearch);
             this.c1InputPanel1.Location = new System.Drawing.Point(0, 0);
             this.c1InputPanel1.Name = "c1InputPanel1";
             this.c1InputPanel1.Size = new System.Drawing.Size(846, 197);
@@ -140,6 +140,16 @@
             // 
             this.dpInvoiceDate.Break = C1.Win.C1InputPanel.BreakType.None;
             this.dpInvoiceDate.Name = "dpInvoiceDate";
+            // 
+            // inputLabel12
+            // 
+            this.inputLabel12.Name = "inputLabel12";
+            this.inputLabel12.Text = "发票类型:";
+            // 
+            // cboInvoiceType
+            // 
+            this.cboInvoiceType.DropDownStyle = C1.Win.C1InputPanel.InputComboBoxStyle.DropDownList;
+            this.cboInvoiceType.Name = "cboInvoiceType";
             // 
             // inputLabel4
             // 
@@ -239,27 +249,28 @@
             this.inputLabel10.Name = "inputLabel10";
             this.inputLabel10.Text = "起始日期:";
             // 
-            // inputDatePicker1
+            // dpStartDate
             // 
-            this.inputDatePicker1.Break = C1.Win.C1InputPanel.BreakType.None;
-            this.inputDatePicker1.Name = "inputDatePicker1";
+            this.dpStartDate.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.dpStartDate.Name = "dpStartDate";
             // 
             // inputLabel11
             // 
             this.inputLabel11.Name = "inputLabel11";
             this.inputLabel11.Text = "截至日期:";
             // 
-            // inputDatePicker2
+            // dpEndDate
             // 
-            this.inputDatePicker2.Break = C1.Win.C1InputPanel.BreakType.None;
-            this.inputDatePicker2.Name = "inputDatePicker2";
+            this.dpEndDate.Break = C1.Win.C1InputPanel.BreakType.None;
+            this.dpEndDate.Name = "dpEndDate";
             // 
-            // inputButton1
+            // btnSearch
             // 
-            this.inputButton1.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.table_tab_search;
-            this.inputButton1.Name = "inputButton1";
-            this.inputButton1.Text = "Search";
-            this.inputButton1.Width = 80;
+            this.btnSearch.Image = global::Kasim.Framework.ZjyxcgWinForm.Properties.Resources.table_tab_search;
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Text = "Search";
+            this.btnSearch.Width = 80;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // dgd
             // 
@@ -288,16 +299,6 @@
             this.ctxtJson.Size = new System.Drawing.Size(846, 152);
             this.ctxtJson.TabIndex = 2;
             this.ctxtJson.Tag = null;
-            // 
-            // cboInvoiceType
-            // 
-            this.cboInvoiceType.DropDownStyle = C1.Win.C1InputPanel.InputComboBoxStyle.DropDownList;
-            this.cboInvoiceType.Name = "cboInvoiceType";
-            // 
-            // inputLabel12
-            // 
-            this.inputLabel12.Name = "inputLabel12";
-            this.inputLabel12.Text = "发票类型:";
             // 
             // FrmInvoice
             // 
@@ -345,10 +346,10 @@
         private C1.Win.C1TrueDBGrid.C1TrueDBGrid dgd;
         private C1.Win.C1InputPanel.InputGroupHeader inputGroupHeader2;
         private C1.Win.C1InputPanel.InputLabel inputLabel10;
-        private C1.Win.C1InputPanel.InputDatePicker inputDatePicker1;
+        private C1.Win.C1InputPanel.InputDatePicker dpStartDate;
         private C1.Win.C1InputPanel.InputLabel inputLabel11;
-        private C1.Win.C1InputPanel.InputDatePicker inputDatePicker2;
-        private C1.Win.C1InputPanel.InputButton inputButton1;
+        private C1.Win.C1InputPanel.InputDatePicker dpEndDate;
+        private C1.Win.C1InputPanel.InputButton btnSearch;
         private C1.Win.C1Input.C1TextBox ctxtJson;
         private C1.Win.C1InputPanel.InputLabel inputLabel12;
         private C1.Win.C1InputPanel.InputComboBox cboInvoiceType;

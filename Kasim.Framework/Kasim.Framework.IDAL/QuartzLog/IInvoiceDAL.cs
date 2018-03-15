@@ -27,14 +27,18 @@ _#/|##########/\######(   /\   )######/\##########|\#_
 
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Kasim.Framework.Entity.QuartzLog;
 
 namespace Kasim.Framework.IDAL.QuartzLog
 {
     public interface IInvoiceDAL
     {
         int SetInvoiceId(string companyPrimaryKey, string id);
+        int AddEntity(Invoice entity);
+        DataTable GetTable(DateTime startDate, DateTime endDate);
     }
 }

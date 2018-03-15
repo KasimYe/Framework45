@@ -50,6 +50,7 @@
     <Compile Include="QuartzLog\IOrderDAL.cs" />
     <Compile Include="QuartzLog\IProcurecatalogDAL.cs" />
     <Compile Include="QuartzLog\IReturnDAL.cs" />
+    <Compile Include="QuartzLog\ISaleDAL.cs" />
     <Compile Include="QuartzLog\IWareHouseDAL.cs" />
   </ItemGroup>
   <ItemGroup>

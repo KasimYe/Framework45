@@ -183,6 +183,12 @@ namespace Kasim.Framework.ZjyxcgWinForm
                     });
                     break;
                 case "C019销售清单上传":
+                    ShowFormAgain(menu.Text, new FrmSale
+                    {
+                        MdiParent = this,
+                        WindowState = FormWindowState.Maximized,
+                        ShowIcon = false
+                    });
                     break;
                 default:
                     break;

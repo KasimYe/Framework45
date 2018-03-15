@@ -51,7 +51,7 @@ namespace Kasim.Framework.Factory
     public class ConnectionFactory
     {
         private string ProviderName;
-        private string ConnectionString;
+        public string ConnectionString;
         public ConnectionFactory(string ConnectionStringName = "ConnectionString")
         {
             ProviderName = ConfigurationManager.ConnectionStrings[ConnectionStringName].ProviderName;

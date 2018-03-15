@@ -79,5 +79,9 @@ namespace Kasim.Framework.Entity.QuartzLog
         /// 销售数量 int
         /// </summary>
         public int SaleNumber{ get; set; }
+        /// <summary>
+        /// 中心返回发票编号
+        /// </summary>
+        public string Id { get; set; }
     }
 }

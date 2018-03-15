@@ -44,6 +44,7 @@
 using Kasim.Framework.Entity.QuartzLog;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -72,5 +73,12 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         /// </param>
         /// <returns></returns>
         ReturnEntity<ErrorListEntity_Sale, Sale> AddSale(string saleInfo);
+        /// <summary>
+        /// 构造空的销售清单数据集
+        /// </summary>
+        /// <returns></returns>
+        DataTable GetEmptySale(Invoice invoice);
+        int AddSale(Sale sale);
+        int WriteBackSaleId(string companyPrimaryKey, string id);
     }
 }

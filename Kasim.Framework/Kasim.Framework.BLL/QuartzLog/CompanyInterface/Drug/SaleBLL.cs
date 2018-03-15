@@ -45,9 +45,11 @@ using Kasim.Framework.Common;
 using Kasim.Framework.Entity.QuartzLog;
 using Kasim.Framework.Factory;
 using Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug;
+using Kasim.Framework.IDAL.QuartzLog;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,6 +58,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
 {
     public class SaleBLL : ISaleBLL
     {
+        ISaleDAL dal = DALFactory.CreateSaleDAL();
         public ReturnEntity<ErrorListEntity_Sale, Sale> AddSale(string saleInfo)
         {
             try
@@ -78,6 +81,21 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
                 FlashLogger.Error(ex.Message);
                 return null;
             }
+        }
+
+        public int AddSale(Sale sale)
+        {
+            return dal.AddEntity(sale);
+        }
+
+        public DataTable GetEmptySale(Invoice invoice)
+        {
+            return dal.GetEmpty(invoice);
+        }
+
+        public int WriteBackSaleId(string companyPrimaryKey, string id)
+        {
+            return dal.SetSaleId(companyPrimaryKey, id);
         }
     }
 }

@@ -44,6 +44,7 @@
 using Kasim.Framework.Entity.QuartzLog;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -83,5 +84,18 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
         /// <param name="id">中心发票编号</param>
         /// <returns></returns>
         int WriteBackInvoiceId(string companyPrimaryKey, string id);
-    }
+        /// <summary>
+        /// 写入数据库
+        /// </summary>
+        /// <param name="entity">发票信息</param>
+        /// <returns></returns>
+        int AddInvoice(Invoice entity);
+        /// <summary>
+        /// 从企业开票系统获取发票信息
+        /// </summary>
+        /// <param name="startDate">起始时间</param>
+        /// <param name="endDate">截至时间</param>
+        /// <returns>发票信息集合</returns>
+        DataTable GetInvoices(DateTime startDate, DateTime endDate);
+        }
 }

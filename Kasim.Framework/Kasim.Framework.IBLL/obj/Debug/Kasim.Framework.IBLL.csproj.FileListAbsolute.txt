@@ -52,3 +52,9 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\Newtonsoft.Json.xml
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\obj\Debug\Kasim.Framework.IBLL.csproj.CopyComplete
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\obj\Debug\Kasim.Framework.IBLL.csproj.CopyComplete
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\C1.C1Excel.4.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\C1.C1Excel.4.xml
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\MySql.Data.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IBLL\bin\Debug\Kasim.Framework.Common.dll.config

@@ -49,6 +49,7 @@ using Kasim.Framework.IDAL.QuartzLog;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,6 +59,17 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug
     public class InvoiceBLL : IInvoiceBLL
     {
         IInvoiceDAL dal = DALFactory.CreateInvoiceDAL();
+
+        public int AddInvoice(Invoice entity)
+        {
+            return dal.AddEntity(entity);
+        }
+
+        public DataTable GetInvoices(DateTime startDate, DateTime endDate)
+        {
+            return dal.GetTable(startDate, endDate);
+        }
+
         public ReturnEntity<ErrorListEntity_Invoice, Invoice> SubmitInvoice(string invoiceInfo)
         {
             try

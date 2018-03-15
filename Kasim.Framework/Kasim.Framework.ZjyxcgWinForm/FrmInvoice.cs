@@ -17,6 +17,7 @@ using Newtonsoft.Json.Linq;
 using Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug;
 using Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug;
 using Kasim.Framework.IBLL.QuartzLog.CompanyInterface;
+using C1.Win.C1TrueDBGrid;
 
 namespace Kasim.Framework.ZjyxcgWinForm
 {
@@ -32,7 +33,7 @@ namespace Kasim.Framework.ZjyxcgWinForm
         private void FrmInvoice_Load(object sender, EventArgs e)
         {
             txtInvoiceCode.Text = "3302172320";
-            txtInvoiceID.Text = "07544957";
+            txtInvoiceID.Text = "07544959";
             dpInvoiceDate.Value = DateTime.Parse("2018-03-13");
             txtBuyRemarks.Text = "购买方是医药公司";
             txtSaleRemark.Text = "销售方是厂家";
@@ -60,8 +61,8 @@ namespace Kasim.Framework.ZjyxcgWinForm
                 Table = "Invoices",
                 Keys = new string[] { "invoiceCode", "invoiceID", "invoiceDate" },
                 Vals = new string[] { txtInvoiceCode.Text, txtInvoiceID.Text, dpInvoiceDate.Value.ToShortDateString() },
-                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2} 销售方:{3} 购买方:{4}", 
-                txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString(),txtSaleID.Text,txtBuyID.Text)
+                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2} 销售方:{3} 购买方:{4}",
+                txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString(), txtSaleID.Text, txtBuyID.Text)
             };
             var json = JsonConvert.SerializeObject(fileModel);
             var queryString = MySecurity.SEncryptString(json, "yss.yh"); ;
@@ -77,7 +78,7 @@ namespace Kasim.Framework.ZjyxcgWinForm
                 Table = "Invoices",
                 Keys = new string[] { "invoiceCode", "invoiceID", "invoiceDate" },
                 Vals = new string[] { txtInvoiceCode.Text, txtInvoiceID.Text, dpInvoiceDate.Value.ToShortDateString() },
-                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2} 销售方:{3} 购买方:{4}", 
+                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2} 销售方:{3} 购买方:{4}",
                 txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString(), txtSaleID.Text, txtBuyID.Text)
             };
 
@@ -90,14 +91,15 @@ namespace Kasim.Framework.ZjyxcgWinForm
                 var result = WebClientHttp.Post(url, postVars);
                 FileModel entity = JsonConvert.DeserializeObject<JObject>(result)["fileModel"].ToObject<FileModel>();
                 var objList = new List<object>();
+                var list = new List<Invoice>();
                 foreach (var item in entity.FileList)
                 {
-                    objList.Add(new
+                    var obj = new
                     {
                         companyPrimaryKey = Guid.NewGuid().ToString(),
                         invoiceCode = txtInvoiceCode.Text,
                         invoiceID = txtInvoiceID.Text,
-                        invoiceDate = dpInvoiceDate.Value.ToString("yyyyMMdd"),                     
+                        invoiceDate = dpInvoiceDate.Value.ToString("yyyyMMdd"),
                         invoiceType = (int)cboInvoiceType.SelectedValue,
                         saleID = txtSaleID.Tag.ToString(),
                         saleRemark = txtSaleRemark.Text,
@@ -105,14 +107,33 @@ namespace Kasim.Framework.ZjyxcgWinForm
                         buyRemarks = txtBuyRemarks.Text,
                         picUrl = ModelFactory.ImgPUrl + item.Url,
                         picMD5 = item.Md5,
+                    };
+                    objList.Add(obj);
+                    list.Add(new Invoice
+                    {
+                        CompanyPrimaryKey = obj.companyPrimaryKey,
+                        InvoiceCode = obj.invoiceCode,
+                        InvoiceID = obj.invoiceID,
+                        InvoiceDate = obj.invoiceDate,
+                        InvoiceType = obj.invoiceType,
+                        SaleID = obj.saleID,
+                        SaleRemark = obj.saleRemark,
+                        BuyID = obj.buyID,
+                        BuyRemarks = obj.buyRemarks,
+                        PicUrl = obj.picUrl,
+                        PicMD5 = obj.picMD5,
                     });
                 }
                 ctxtJson.Text = JsonConvert.SerializeObject(new { list = objList });
+                if (MBox.ShowAsk("是否写入数据库？"))
+                {
+                    list.ForEach(x => invoiceBLL.AddInvoice(x));
+                }
             }
             catch (Exception ex)
             {
                 MBox.ShowErr(ex.Message);
-            }                    
+            }
         }
 
         //第一票销售方是厂家，购买方是医药公司
@@ -226,6 +247,28 @@ namespace Kasim.Framework.ZjyxcgWinForm
                 else
                     MBox.ShowMsg("数据不存在");
             }
+        }
+
+        private void BindDgd()
+        {
+            var dt = invoiceBLL.GetInvoices(dpStartDate.Value.Date, dpEndDate.Value.Date);
+            Cgd.SetDefaultStyle(dgd, dt, false, false, false, _ClearColumns: true);
+
+            Cgd.SetColumn(dgd, "companyPrimaryKey", "主键", 270, -1, "", AlignHorzEnum.Center);            
+            Cgd.SetColumn(dgd, "invoiceCode", "发票代码", 100, -1, "", AlignHorzEnum.Center);
+            Cgd.SetColumn(dgd, "invoiceID", "发票号码", 80, -1, "", AlignHorzEnum.Center);
+            Cgd.SetColumn(dgd, "invoiceDate", "发票日期", 80, -1, "yyyy-MM-dd", AlignHorzEnum.Center);
+            Cgd.SetColumn(dgd, "saleName", "销售方", 170, -1, "", AlignHorzEnum.Near);
+            Cgd.SetColumn(dgd, "saleRemark", "销售方备注", 120, -1, "", AlignHorzEnum.Near);
+            Cgd.SetColumn(dgd, "buyName", "购买方", 170, -1, "", AlignHorzEnum.Near);
+            Cgd.SetColumn(dgd, "buyRemarks", "购买方备注", 120, -1, "", AlignHorzEnum.Near);
+            Cgd.SetColumn(dgd, "id", "中心返回ID", 200, -1, "", AlignHorzEnum.Center);
+            Cgd.AddEndingStyle(dgd);
+        }     
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            BindDgd();
         }
     }
 }

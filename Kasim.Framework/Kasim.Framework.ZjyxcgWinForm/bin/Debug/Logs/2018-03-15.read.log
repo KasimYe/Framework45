@@ -2014,3 +2014,39 @@
 [ERROR] [3]
 [12:35:03,096] [2018-03-15 12:35:03,096]
 远程服务器返回错误: (500) 内部服务器错误。
+
+[INFO] [3]
+[18:39:08,340] [2018-03-15 18:39:08,335]
+{"returnCode":4,"successList":"[]","returnMsg":"令牌无效，请重新获取令牌","errorList":"[]"}
+
+[INFO] [3]
+[18:39:08,966] [2018-03-15 18:39:08,966]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":6,"errorMsg":"数据重复提交【发票代码+发票号码已存在】"}],"companyPrimaryKey":"c8da0166-7e2a-4cfa-9f13-7d33ebdae8ef"}]}
+
+[INFO] [3]
+[18:39:36,107] [2018-03-15 18:39:36,107]
+{"returnCode":1,"successList":[{"companyPrimaryKey":"0d7f9826-b1c1-4c2d-962a-54004d97497e","ID":"180315183945882675461982"}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[19:31:58,576] [2018-03-15 19:31:58,572]
+{"returnCode":4,"successList":"[]","returnMsg":"令牌无效，请重新获取令牌","errorList":"[]"}
+
+[INFO] [3]
+[19:31:59,117] [2018-03-15 19:31:59,117]
+{"returnCode":1,"successList":[{"companyPrimaryKey":"419900e5-545d-4f71-88c9-1666c9896058","ID":"180315193208927086548292"}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[19:35:01,870] [2018-03-15 19:35:01,867]
+{"returnCode":1,"successList":[{"companyPrimaryKey":"ae6416ec-b02a-43a3-85eb-abf971d2c7f0","ID":"180315193511676897442972"}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[22:30:21,604] [2018-03-15 22:30:21,603]
+{"returnCode":4,"successList":"[]","returnMsg":"令牌无效，请重新获取令牌","errorList":"[]"}
+
+[INFO] [3]
+[22:30:22,177] [2018-03-15 22:30:22,177]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":4,"errorMsg":"数据不存在【发票代码+发票号码不存在】"}],"companyPrimaryKey":"d4b50ea5-3c9b-485e-be04-e22aaec16c3e"}]}
+
+[INFO] [3]
+[22:32:14,904] [2018-03-15 22:32:14,902]
+{"returnCode":1,"successList":[{"companyPrimaryKey":"d4b50ea5-3c9b-485e-be04-e22aaec16c3e","ID":39931}],"returnMsg":"业务执行成功"}
