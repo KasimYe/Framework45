@@ -126,6 +126,8 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
 
         public int UpdateCompany(Company entity)
         {
+            entity.AddTime = TimeHelper.GetTime(entity.AddTime.ToString());
+            entity.LastUpdateTime = TimeHelper.GetTime(entity.LastUpdateTime.ToString());
             return dal.SetEntity(entity);
         }
     }

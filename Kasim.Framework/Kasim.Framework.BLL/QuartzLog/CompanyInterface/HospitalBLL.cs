@@ -156,6 +156,8 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
 
         public int UpdateHospital(Hospital entity)
         {
+            entity.AddTime = TimeHelper.GetTime(entity.AddTime.ToString());
+            entity.LastUpdateTime = TimeHelper.GetTime(entity.LastUpdateTime.ToString());
             return dal.SetEntity(entity);
         }
     }

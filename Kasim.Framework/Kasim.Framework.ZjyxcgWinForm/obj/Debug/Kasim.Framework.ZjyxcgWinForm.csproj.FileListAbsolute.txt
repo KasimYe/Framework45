@@ -348,3 +348,5 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Zjyxc
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj\Debug\Kasim.Framework.ZjyxcgWinForm.csproj.CopyComplete
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.Win.C1Input.4.dll
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.Win.C1Input.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.Win.C1Input.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.Win.C1Input.4.xml

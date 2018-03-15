@@ -70,7 +70,7 @@ namespace Kasim.Framework.Entity.QuartzLog
         /// <summary>
         /// 发票类型(1:第一票， 3：中间票） int
         /// </summary>
-        public int InvoceType { get; set; }
+        public int InvoiceType { get; set; }
         /// <summary>
         /// 销售方 ID【平台内的企业编号】 varchar(36)
         /// </summary>
