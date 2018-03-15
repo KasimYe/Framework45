@@ -16,12 +16,14 @@ using System.Collections.Specialized;
 using Newtonsoft.Json.Linq;
 using Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug;
 using Kasim.Framework.BLL.QuartzLog.CompanyInterface.Drug;
+using Kasim.Framework.IBLL.QuartzLog.CompanyInterface;
 
 namespace Kasim.Framework.ZjyxcgWinForm
 {
     public partial class FrmInvoice : DevExpress.XtraEditors.XtraForm
     {
         IInvoiceBLL invoiceBLL = new InvoiceBLL();
+        ICompanySCBLL companySCBLL = new CompanySCBLL();
         public FrmInvoice()
         {
             InitializeComponent();
@@ -32,17 +34,34 @@ namespace Kasim.Framework.ZjyxcgWinForm
             txtInvoiceCode.Text = "3302172320";
             txtInvoiceID.Text = "07544957";
             dpInvoiceDate.Value = DateTime.Parse("2018-03-13");
+            txtBuyRemarks.Text = "购买方是医药公司";
+            txtSaleRemark.Text = "销售方是厂家";
+            txtSaleID.Text = "湖南科伦";
+            txtBuyID.Text = "万隆";
+            Dictionary<string, int> dic = new Dictionary<string, int>
+            {
+                { "第一票", 1 },
+                { "中间票", 3 }
+            };
+            BindingSource bs = new BindingSource
+            {
+                DataSource = dic
+            };
+            cboInvoiceType.DataSource = bs;
+            cboInvoiceType.DisplayMember = "Key";
+            cboInvoiceType.ValueMember = "Value";
         }
 
         private void BtnRequestImage_Click(object sender, EventArgs e)
         {
             var fileModel = new FileModel
             {
-                TypeId = 3,
+                TypeId = 1,
                 Table = "Invoices",
                 Keys = new string[] { "invoiceCode", "invoiceID", "invoiceDate" },
                 Vals = new string[] { txtInvoiceCode.Text, txtInvoiceID.Text, dpInvoiceDate.Value.ToShortDateString() },
-                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2}", txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString())
+                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2} 销售方:{3} 购买方:{4}", 
+                txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString(),txtSaleID.Text,txtBuyID.Text)
             };
             var json = JsonConvert.SerializeObject(fileModel);
             var queryString = MySecurity.SEncryptString(json, "yss.yh"); ;
@@ -54,12 +73,14 @@ namespace Kasim.Framework.ZjyxcgWinForm
         {
             var fileModel = new FileModel
             {
-                TypeId = 3,
+                TypeId = 1,
                 Table = "Invoices",
                 Keys = new string[] { "invoiceCode", "invoiceID", "invoiceDate" },
                 Vals = new string[] { txtInvoiceCode.Text, txtInvoiceID.Text, dpInvoiceDate.Value.ToShortDateString() },
-                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2}", txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString())
+                Message = string.Format("发票号码:{0} 发票代码:{1} 开票日期:{2} 销售方:{3} 购买方:{4}", 
+                txtInvoiceID.Text, txtInvoiceCode.Text, dpInvoiceDate.Value.ToShortDateString(), txtSaleID.Text, txtBuyID.Text)
             };
+
             try
             {
                 var json = JsonConvert.SerializeObject(fileModel);
@@ -73,15 +94,15 @@ namespace Kasim.Framework.ZjyxcgWinForm
                 {
                     objList.Add(new
                     {
-                        companyPrimaryKey = "123",
+                        companyPrimaryKey = Guid.NewGuid().ToString(),
                         invoiceCode = txtInvoiceCode.Text,
                         invoiceID = txtInvoiceID.Text,
                         invoiceDate = dpInvoiceDate.Value.ToString("yyyyMMdd"),                     
-                        invoceType = 1,
-                        saleID = "123",
-                        saleRemark = "",
-                        buyID = "456",
-                        buyRemarks = "123",
+                        invoiceType = (int)cboInvoiceType.SelectedValue,
+                        saleID = txtSaleID.Tag.ToString(),
+                        saleRemark = txtSaleRemark.Text,
+                        buyID = txtBuyID.Tag.ToString(),
+                        buyRemarks = txtBuyRemarks.Text,
                         picUrl = ModelFactory.ImgPUrl + item.Url,
                         picMD5 = item.Md5,
                     });
@@ -94,6 +115,8 @@ namespace Kasim.Framework.ZjyxcgWinForm
             }                    
         }
 
+        //第一票销售方是厂家，购买方是医药公司
+        //第二票销售方是医药公司，购买方是医院
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(ctxtJson.Text.Trim()))
@@ -105,19 +128,20 @@ namespace Kasim.Framework.ZjyxcgWinForm
             #region "Test"
             //try
             //{
-            //    string url = "http://trade.zgyxcgw.cn:9092/tradeInterface/v1/companyInterface/drug/distribution/distribute";
-            //    var postVars = new System.Collections.Specialized.NameValueCollection
+            //    string url = "http://trade.zgyxcgw.cn:9092/tradeInterface/v1/companyInterface/drug/invoice/addInvoice";
+            //    var postVars = new NameValueCollection
             //    {
             //        { "accessToken", BLL.QuartzLog.CompanyInterface.AccessTokeBLL.AccessToken.AccessToken },
-            //        { "distributeInfo", rtxtJson.Text }
+            //        { "invoiceInfo", ctxtJson.Text },
             //    };
             //    string result = WebClientHttp.Post(url, postVars);
-            //    FlashLogger.Info(result);                 
+            //    FlashLogger.Info(result); 
             //}
             //catch (Exception ex)
             //{
             //    FlashLogger.Error(ex.Message);                
             //}
+            //return;
             #endregion
 
             StringBuilder stringBuilder = new StringBuilder();
@@ -148,6 +172,60 @@ namespace Kasim.Framework.ZjyxcgWinForm
             }
 
             ctxtJson.Text += string.Format("\r\n\r\n***********************【 返 回 】***********************\r\n\r\n{0}", stringBuilder.ToString());
+        }
+
+        private void TxtSaleID_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter && !string.IsNullOrEmpty(txtSaleID.Text.Trim()))
+            {
+                var list = companySCBLL.GetCompanyList(DateTime.Now, DateTime.Now, txtSaleID.Text.Trim());
+                DataTable dataTable = null;
+                if (list != null && list.Count > 0)
+                    dataTable = new DataTableExtensions<Company>(list).DtReturn;
+                if (dataTable != null)
+                {
+                    var frm = new FrmPopList
+                    {
+                        dataTable = dataTable,
+                        StartPosition = FormStartPosition.CenterParent
+                    };
+                    frm.ShowDialog();
+                    if (frm.dataRow != null)
+                    {
+                        txtSaleID.Text = frm.dataRow["companyName"].ToString();
+                        txtSaleID.Tag = frm.dataRow["companyId"];
+                    }
+                }
+                else
+                    MBox.ShowMsg("数据不存在");
+            }
+        }
+
+        private void TxtBuyID_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter && !string.IsNullOrEmpty(txtBuyID.Text.Trim()))
+            {
+                var list = companySCBLL.GetCompanyList(DateTime.Now, DateTime.Now, txtBuyID.Text.Trim());
+                DataTable dataTable = null;
+                if (list != null && list.Count > 0)
+                    dataTable = new DataTableExtensions<Company>(list).DtReturn;
+                if (dataTable != null)
+                {
+                    var frm = new FrmPopList
+                    {
+                        dataTable = dataTable,
+                        StartPosition = FormStartPosition.CenterParent
+                    };
+                    frm.ShowDialog();
+                    if (frm.dataRow != null)
+                    {
+                        txtBuyID.Text = frm.dataRow["companyName"].ToString();
+                        txtBuyID.Tag = frm.dataRow["companyId"];
+                    }
+                }
+                else
+                    MBox.ShowMsg("数据不存在");
+            }
         }
     }
 }

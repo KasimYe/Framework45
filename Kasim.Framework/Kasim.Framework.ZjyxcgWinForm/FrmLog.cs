@@ -31,6 +31,7 @@ namespace Kasim.Framework.ZjyxcgWinForm
             string fileName = dtpDate.Value.ToString("yyyy-MM-dd") + ".read.log";
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs", fileName);
             string newFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "CopyLogs", fileName);
+            FileOperate.FolderCreate(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "CopyLogs"));
             FileOperate.FileCoppy(filePath, newFile);
             rtxtLog.Text = FileOperate.ReadFile(newFile);
         }
