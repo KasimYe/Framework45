@@ -64,7 +64,9 @@ namespace Kasim.Framework.QuartzLog
         protected abstract ITrigger GetTrigger();
         public void AddJobToSchedule(IScheduler scheduler)
         {
-            scheduler.ScheduleJob(GetJobDetail(), GetTrigger());
+            var trigger = GetTrigger();
+            if (trigger == null) return;
+            scheduler.ScheduleJob(GetJobDetail(), trigger);
         }
     }
 }

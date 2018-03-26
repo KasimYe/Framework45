@@ -114,3 +114,5 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\b
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\C1.C1Excel.4.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\Kasim.Framework.Common.dll.config
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\Kasim.Framework.MySQLDAL.dll.config
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.BLL\bin\Debug\Kasim.Framework.SQLServerDAL.pdb

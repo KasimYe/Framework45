@@ -63,8 +63,10 @@
     <Compile Include="QuartzLog\CompanyInterface\HospitalBLL.cs" />
     <Compile Include="QuartzLog\CompanyInterface\Pay\PayOrderBLL.cs" />
     <Compile Include="QuartzLog\ConnectionBLL.cs" />
+    <Compile Include="QuartzLog\CronBLL.cs" />
     <Compile Include="QuartzLog\ListEntityCommon.cs" />
     <Compile Include="QuartzLog\ReturnEntityCommon.cs" />
+    <Compile Include="QuartzLog\SystemOther\ReductSqlBLL.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -91,6 +93,10 @@
     <ProjectReference Include="..\Kasim.Framework.MySQLDAL\Kasim.Framework.MySQLDAL.csproj">
       <Project>{e2c3c97c-6da6-4b95-a324-37937f113ef6}</Project>
       <Name>Kasim.Framework.MySQLDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasim.Framework.SQLServerDAL\Kasim.Framework.SQLServerDAL.csproj">
+      <Project>{68B118E7-1401-495E-B70A-6507016E4290}</Project>
+      <Name>Kasim.Framework.SQLServerDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

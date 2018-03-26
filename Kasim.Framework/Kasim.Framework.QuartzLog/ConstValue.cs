@@ -41,6 +41,8 @@
 * desc:
 *
 *=====================================================================*/
+using Kasim.Framework.BLL.QuartzLog;
+using Kasim.Framework.IBLL.QuartzLog;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -60,7 +62,12 @@ namespace Kasim.Framework.QuartzLog
                 return Convert.ToString(cron);
             }
             return "*/3 * * * * ?"; //如果没有配置默认触发器3秒触发一次
-        }       
-        
+        }
+
+        public static string GetCron(string connectionString, string cronName)
+        {
+            ICronBLL bll = new CronBLL(connectionString);
+            return bll.GetCron(cronName);
+        }
     }
 }

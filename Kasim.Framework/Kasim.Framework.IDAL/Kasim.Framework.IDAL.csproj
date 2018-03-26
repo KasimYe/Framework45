@@ -44,11 +44,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuartzLog\IAccessTokeDAL.cs" />
     <Compile Include="QuartzLog\ICompanyDAL.cs" />
+    <Compile Include="QuartzLog\ICronDAL.cs" />
     <Compile Include="QuartzLog\IDistributionDAL.cs" />
     <Compile Include="QuartzLog\IHospitalDAL.cs" />
     <Compile Include="QuartzLog\IInvoiceDAL.cs" />
     <Compile Include="QuartzLog\IOrderDAL.cs" />
     <Compile Include="QuartzLog\IProcurecatalogDAL.cs" />
+    <Compile Include="QuartzLog\IReductSqlDAL.cs" />
     <Compile Include="QuartzLog\IReturnDAL.cs" />
     <Compile Include="QuartzLog\ISaleDAL.cs" />
     <Compile Include="QuartzLog\IWareHouseDAL.cs" />

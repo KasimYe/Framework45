@@ -46,6 +46,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuartzLog\DistributionDAL.cs" />
+    <Compile Include="QuartzLog\ReductSqlDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kasim.Framework.Entity\Kasim.Framework.Entity.csproj">

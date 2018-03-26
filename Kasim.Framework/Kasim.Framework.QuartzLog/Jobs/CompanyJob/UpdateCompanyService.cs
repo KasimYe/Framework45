@@ -43,6 +43,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -70,9 +71,13 @@ namespace Kasim.Framework.QuartzLog.Jobs.CompanyJob
 
         protected override ITrigger GetTrigger()
         {
+            var connectionString = ConfigurationManager.ConnectionStrings["MisConnectionString"].ConnectionString;
+            var cron = ConstValue.GetCron(connectionString, "UpdateCompanyJobCron");
+            if (string.IsNullOrEmpty(cron)) return null;
+
             var trigger = TriggerBuilder.Create()
               .WithIdentity(JobName, GroupName)
-              .WithCronSchedule(ConstValue.GetCron("UpdateCompanyJobCron"))
+              .WithCronSchedule(cron)
               .Build();
             return trigger;
         }

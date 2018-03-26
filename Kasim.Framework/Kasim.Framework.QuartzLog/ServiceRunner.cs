@@ -75,6 +75,8 @@ namespace Kasim.Framework.QuartzLog
             //日常系统任务
             new Jobs.SystemOtherJob.ExistsImageService()
                 .AddJobToSchedule(scheduler);
+            new Jobs.SystemOtherJob.ReductSqlService()
+                .AddJobToSchedule(scheduler);
 
             scheduler.Start();
             return true;
