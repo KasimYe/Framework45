@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+  <connectionStrings>
+    <add name="ConnectionString" providerName="MySql.Data.MySqlClient" connectionString="Data Source=localhost;port=3306;Initial Catalog=zjyxcg;user id=root;password=BRYY@abc123;Charset=utf8" />
+    <add name="MisConnectionString" providerName="MySql.Data.MySqlClient" connectionString="Data Source=localhost;port=3306;Initial Catalog=misdb;user id=root;password=BRYY@abc123;Charset=utf8" />
+  </connectionStrings>
+  <appSettings>
+    <!--药械平台接口URL,测试:http://trade.zgyxcgw.cn:9092,正式:http://trade.zgyxcgw.cn:8092-->
+    <add key="ServiceUrl" value="http://trade.zgyxcgw.cn:9092/tradeInterface/v1" />
+    <!--药械平台登录用户名,加密-->
+    <add key="OrgUserName" value="37594F416262582578820C0F3D3D9CD8" />
+    <!--药械平台登录密码,加密-->
+    <add key="Secret" value="4D0270713B1D1159EEDF01BE54AF9511" />
+
+    <!--******************************任务CRON********************************-->
+    <!--更新生产企业信息-->
+    <add key="UpdateCompanyJobCron" value="0 0 15 * * ?" />
+    <!--更新医疗机构信息-->
+    <add key="UpdateHospitalJobCron" value="5 0 15 * * ?" />
+    <!--更新商品信息-->
+    <add key="UpdateProcurecatalogJobCron" value="15 0 15 * * ?" />
+    <!--获取采购订单-->
+    <add key="UpdateOrderJobCron" value="0 58 * * * ?" />
+    <!--*************其他任务*************-->
+    <!--检查图片是否存在-->
+    <add key="ExistsImageJobCron" value="0 58 * * * ?" />
+
+    <!--******************************其他参数********************************-->
+    <!--要还原的数据库名-->
+    <add key="ReductDbName" value="MIS_Search"/>
+    <!--要还原的数据库文件路径-->
+    <add key="ReductOpenAway" value="E:\SearchDB"/>
+
+  </appSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Common.Logging.Core" publicKeyToken="af08829b84f0328e" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.4.1.0" newVersion="3.4.1.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Common.Logging" publicKeyToken="af08829b84f0328e" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.4.1.0" newVersion="3.4.1.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="log4net" publicKeyToken="669e0ddf0bb1aa2a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.0.8.0" newVersion="2.0.8.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

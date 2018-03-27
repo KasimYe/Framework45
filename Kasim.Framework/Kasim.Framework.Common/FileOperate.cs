@@ -746,5 +746,26 @@ namespace Kasim.Framework.Common
         }
 
         #endregion
+
+        #region "获取最近创建的文件名和创建时间"
+        //获取最近创建的文件名和创建时间
+        //如果没有指定类型的文件，返回null
+        public static FileInfo GetLatestFileTimeInfo(string dir, string ext)
+        {
+            List<FileInfo> list = new List<FileInfo>();
+            DirectoryInfo d = new DirectoryInfo(dir);
+            foreach (FileInfo fi in d.GetFiles())
+            {
+                if (fi.Extension.ToUpper() == ext.ToUpper())
+                {
+                    list.Add(fi);
+                }
+            }
+            var qry = from x in list
+                      orderby x.CreationTime
+                      select x;
+            return qry.LastOrDefault();
+        }
+        #endregion
     }
 }

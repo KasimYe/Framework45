@@ -49,6 +49,7 @@
     <Compile Include="OcrSearch\Tools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuartzLog\AccessTokenEntity.cs" />
+    <Compile Include="QuartzLog\Cron.cs" />
     <Compile Include="QuartzLog\Distribute.cs" />
     <Compile Include="QuartzLog\ErrorListEntity_Distribute.cs" />
     <Compile Include="QuartzLog\ErrorListEntity_Invoice.cs" />

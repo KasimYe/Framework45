@@ -59,6 +59,8 @@
     <Compile Include="QuartzLog\CompanyInterface\IAccessTokeBLL.cs" />
     <Compile Include="QuartzLog\CompanyInterface\Pay\IPayOrderBLL.cs" />
     <Compile Include="QuartzLog\IConnectionBLL.cs" />
+    <Compile Include="QuartzLog\ICronBLL.cs" />
+    <Compile Include="QuartzLog\SystemOther\IReductSqlBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kasim.Framework.Entity\Kasim.Framework.Entity.csproj">

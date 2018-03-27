@@ -1,0 +1,250 @@
+
+[INFO] [1]
+[20:55:02,422] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[20:55:02,435] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[20:55:02,877] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[20:55:02,887] Starting up as a console application
+
+[INFO] [1]
+[20:55:19,965] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[20:55:19,978] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[20:55:20,190] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[20:55:20,197] Starting up as a console application
+
+[INFO] [1]
+[20:59:19,003] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[20:59:19,014] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[20:59:19,188] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[20:59:19,195] Starting up as a console application
+
+[INFO] [1]
+[21:00:36,087] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:00:36,108] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:00:36,336] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:00:36,345] Starting up as a console application
+
+[INFO] [1]
+[21:01:28,969] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:01:28,993] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:01:29,347] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:01:29,362] Starting up as a console application
+
+[INFO] [1]
+[21:01:29,731] The ZjyxcgServiceQuartz service is now running, press Control+C to exit.
+
+[INFO] [1]
+[21:03:56,755] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:03:56,766] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:03:56,929] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:03:56,936] Starting up as a console application
+
+[INFO] [1]
+[21:03:57,305] The ZjyxcgServiceQuartz service is now running, press Control+C to exit.
+
+[ERROR] [3]
+[21:05:07,794] [2018-03-26 21:05:06,629]
+ReductSqlJob_Execute:未能找到路径“E:\SearchDB”的一部分。
+
+[INFO] [1]
+[21:25:43,351] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:25:43,370] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:25:43,594] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:25:43,604] Starting up as a console application
+
+[INFO] [1]
+[21:35:56,922] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[21:35:56,938] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[21:35:57,180] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[21:35:57,187] Starting up as a console application
+
+[INFO] [1]
+[22:05:41,012] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[22:05:41,030] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[22:05:41,209] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[22:05:41,219] Starting up as a console application
+
+[INFO] [1]
+[22:17:19,507] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[22:17:19,525] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[22:17:19,696] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[22:17:19,744] Starting up as a console application
+
+[INFO] [1]
+[22:19:33,230] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[22:19:33,247] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[22:19:33,432] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[22:19:33,447] Starting up as a console application
+
+[INFO] [1]
+[22:24:09,951] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[22:24:09,962] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[22:24:10,133] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[22:24:10,140] Starting up as a console application
+
+[INFO] [1]
+[22:29:16,633] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[22:29:16,652] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[22:29:16,826] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[22:29:16,836] Starting up as a console application
+
+[INFO] [1]
+[22:31:45,551] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[22:31:45,565] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[22:31:45,713] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[22:31:45,737] Starting up as a console application
+
+[INFO] [1]
+[23:17:48,051] Configuration Result:
+[Success] Name ZjyxcgServiceQuartz
+[Success] DisplayName 药械采购平台数据定时更新同步服务
+[Success] Description 浙江省药械采购中心基础数据下载更新同步,上传下载各类单据.
+[Success] ServiceName ZjyxcgServiceQuartz
+
+[INFO] [1]
+[23:17:48,067] Topshelf v3.3.154.0, .NET Framework v4.0.30319.42000
+
+[DEBUG] [1]
+[23:17:48,325] Running as a console application, creating the console host.
+
+[DEBUG] [1]
+[23:17:48,332] Starting up as a console application
