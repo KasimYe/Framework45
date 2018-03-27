@@ -69,3 +69,8 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Facto
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\C1.C1Excel.4.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\Kasim.Framework.Common.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\C1.C1Excel.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\Kasim.Framework.Common.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Factory\bin\Debug\C1.C1Excel.4.xml

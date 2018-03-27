@@ -48,3 +48,11 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Commo
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.dll.licenses
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\Kasim.Framework.Common.dll.config
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\MySql.Data.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\Kasim.Framework.Common.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\C1.C1Excel.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\MySql.Data.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\C1.C1Excel.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.Form1.resources
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.dll.licenses

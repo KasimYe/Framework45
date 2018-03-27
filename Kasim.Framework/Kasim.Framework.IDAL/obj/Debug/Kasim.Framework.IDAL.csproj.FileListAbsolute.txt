@@ -54,3 +54,9 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\C1.C1Excel.4.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\MySql.Data.dll
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\Kasim.Framework.Common.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\C1.C1Excel.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\MySql.Data.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\Kasim.Framework.Common.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.IDAL\bin\Debug\C1.C1Excel.4.xml
