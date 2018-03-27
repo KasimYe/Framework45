@@ -355,6 +355,23 @@ namespace Kasim.Framework.Common
                 Directory.Delete(dir, true); //删除已空文件夹                 
             }
         }
+        /// <summary>
+        /// 删除目录下所有文件和文件夹，不删除目录
+        /// </summary>
+        /// <param name="dir"></param>
+        public static void DeleteFolderFiles(string dir)
+        {
+            if (Directory.Exists(dir)) //如果存在这个文件夹删除之 
+            {
+                foreach (string d in Directory.GetFileSystemEntries(dir))
+                {
+                    if (File.Exists(d))
+                        File.Delete(d); //直接删除其中的文件                        
+                    else
+                        DeleteFolder(d); //递归删除子文件夹 
+                }                      
+            }
+        }
 
         #endregion
 

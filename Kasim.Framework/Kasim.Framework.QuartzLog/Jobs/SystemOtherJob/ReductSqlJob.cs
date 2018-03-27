@@ -46,17 +46,20 @@ namespace Kasim.Framework.QuartzLog.Jobs.SystemOtherJob
             var openAway = ConfigurationManager.AppSettings["ReductOpenAway"];
             var dbName_Data = ConfigurationManager.AppSettings["ReductDataPath"];
             var dbName_Log = ConfigurationManager.AppSettings["ReductLogPath"];
+            var movePath = ConfigurationManager.AppSettings["ReductMovePath"];
             IReductSqlBLL bll = new ReductSqlBLL();
             try
             {
                 var dbFile = FileOperate.GetLatestFileTimeInfo(openAway, ".bak");
                 if (dbFile != null)
                 {
-                    FlashLogger.Info(string.Format("最新备份文件[{0}],数据库[{1}]正在还原中...", dbName, dbFile.FullName));
-                    FlashLogger.Info(bll.ReductGo(dbName, dbFile.FullName, dbName_Data, dbName_Log));
-                    FlashLogger.Info("开始删除数据库备份文件");
-                    //dbFile.Delete();
-                    FlashLogger.Info("备份文件完毕！");
+                    FlashLogger.Info(string.Format("最新备份文件[{0}],\r\n数据库[{1}]\r\n正在还原中...", dbFile.FullName, dbName));
+                    FlashLogger.Info(bll.ReductGo(dbName, dbFile.FullName));
+                    FlashLogger.Info(string.Format("开始移动数据库备份文件,\r\n[{0}]\r\n   --->\r\n[{1}]", dbFile.FullName, movePath + dbFile.Name));
+                    FileOperate.FileMove(dbFile.FullName, movePath + dbFile.Name);
+                    FlashLogger.Info("删除目录下多余的备份文件！");
+                    FileOperate.DeleteFolderFiles(openAway);
+                    FlashLogger.Info("备份文件还原完毕！");
                 }
                 else
                 {

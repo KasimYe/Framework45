@@ -47,6 +47,7 @@ namespace Kasim.Framework.SQLServerDAL.QuartzLog
             {
                 conn.Open();
                 cmdBakRst.Connection = conn;
+                cmdBakRst.CommandTimeout = 3600;
                 cmdBakRst.CommandType = CommandType.Text;
 
                 //string setOffline = "Alter database GroupMessage Set Offline With rollback immediate ";

@@ -364,3 +364,5 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\DevComponents.DotNetBar2.xml
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\C1.C1Excel.4.xml
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\obj\Debug\Kasim.Framework.ZjyxcgWinForm.FrmSale.resources
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.ZjyxcgWinForm\bin\Debug\Kasim.Framework.SQLServerDAL.pdb
