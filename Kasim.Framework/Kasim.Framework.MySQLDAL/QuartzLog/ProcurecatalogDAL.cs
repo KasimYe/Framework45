@@ -89,7 +89,7 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "SELECT * FROM procurecatalog WHERE procurecatalogId=@procurecatalogId";
+                string query = "SELECT p.*,m.`companyProcurecatalogId` FROM `procurecatalog` p LEFT JOIN `matchprocurecatalog` m ON m.`procurecatalogId`=p.`procurecatalogId` AND m.`companyIdSc`=p.`companyIdSc` WHERE procurecatalogId=@procurecatalogId";
                 var result = Conn.Query<Procurecatalog>(query, new { procurecatalogId = id }).SingleOrDefault();
                 Conn.Close();
                 Conn.Dispose();
@@ -101,7 +101,7 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "SELECT * FROM procurecatalog WHERE `lastUpdateTime` >= @startDate AND `lastUpdateTime` <= @endDate ORDER BY lastUpdateTime";
+                string query = "SELECT p.*,m.`companyProcurecatalogId` FROM `procurecatalog` p LEFT JOIN `matchprocurecatalog` m ON m.`procurecatalogId`=p.`procurecatalogId` AND m.`companyIdSc`=p.`companyIdSc` WHERE `lastUpdateTime` >= @startDate AND `lastUpdateTime` <= @endDate ORDER BY lastUpdateTime";
                 var result = Conn.Query<Procurecatalog>(query, new { startDate, endDate }).ToList();
                 Conn.Close();
                 Conn.Dispose();
@@ -113,7 +113,7 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "SELECT * FROM procurecatalog WHERE productName LIKE @name ORDER BY lastUpdateTime";
+                string query = "SELECT p.*,m.`companyProcurecatalogId` FROM `procurecatalog` p LEFT JOIN `matchprocurecatalog` m ON m.`procurecatalogId`=p.`procurecatalogId` AND m.`companyIdSc`=p.`companyIdSc` WHERE productName LIKE @name ORDER BY lastUpdateTime";
                 var result = Conn.Query<Procurecatalog>(query, new { name = '%' + productName + '%' }).ToList();
                 Conn.Close();
                 Conn.Dispose();

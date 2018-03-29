@@ -122,7 +122,11 @@ namespace Kasim.Framework.Entity.QuartzLog
         /// <summary>
         /// 存在为 1、不存在为 0
         /// </summary>
-        public bool? IsExist { get; set; }        
+        public bool? IsExist { get; set; }
+        /// <summary>
+        /// 关联企业系统中的商品ID
+        /// </summary>
+        public string CompanyProcurecatalogId { get; set; }
     }
 
     /// <summary>
