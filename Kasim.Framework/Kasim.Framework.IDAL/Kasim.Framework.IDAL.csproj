@@ -53,6 +53,7 @@
     <Compile Include="QuartzLog\IReductSqlDAL.cs" />
     <Compile Include="QuartzLog\IReturnDAL.cs" />
     <Compile Include="QuartzLog\ISaleDAL.cs" />
+    <Compile Include="QuartzLog\ISubmitSaleCacheDAL.cs" />
     <Compile Include="QuartzLog\IWareHouseDAL.cs" />
   </ItemGroup>
   <ItemGroup>

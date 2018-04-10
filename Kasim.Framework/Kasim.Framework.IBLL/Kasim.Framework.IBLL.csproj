@@ -61,6 +61,7 @@
     <Compile Include="QuartzLog\IConnectionBLL.cs" />
     <Compile Include="QuartzLog\ICronBLL.cs" />
     <Compile Include="QuartzLog\SystemOther\IReductSqlBLL.cs" />
+    <Compile Include="QuartzLog\SystemOther\ISubmitSaleCacheBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kasim.Framework.Entity\Kasim.Framework.Entity.csproj">

@@ -77,6 +77,8 @@ namespace Kasim.Framework.QuartzLog
                 .AddJobToSchedule(scheduler);
             new Jobs.SystemOtherJob.ReductSqlService()
                 .AddJobToSchedule(scheduler);
+            new Jobs.SystemOtherJob.SubmitSaleCacheService()
+                .AddJobToSchedule(scheduler);
 
             scheduler.Start();
             return true;
