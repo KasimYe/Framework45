@@ -89,7 +89,7 @@ namespace Kasim.Framework.MySQLDAL.QuartzLog
         {
             using (var Conn = new ConnectionFactory().Connection)
             {
-                string query = "SELECT p.*,m.`companyProcurecatalogId` FROM `procurecatalog` p LEFT JOIN `matchprocurecatalog` m ON m.`procurecatalogId`=p.`procurecatalogId` AND m.`companyIdSc`=p.`companyIdSc` WHERE procurecatalogId=@procurecatalogId";
+                string query = "SELECT p.*,m.`companyProcurecatalogId` FROM `procurecatalog` p LEFT JOIN `matchprocurecatalog` m ON m.`procurecatalogId`=p.`procurecatalogId` AND m.`companyIdSc`=p.`companyIdSc` WHERE p.procurecatalogId=@procurecatalogId";
                 var result = Conn.Query<Procurecatalog>(query, new { procurecatalogId = id }).SingleOrDefault();
                 Conn.Close();
                 Conn.Dispose();
