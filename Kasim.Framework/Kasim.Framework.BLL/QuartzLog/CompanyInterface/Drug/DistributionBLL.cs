@@ -103,7 +103,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "distributeInfo", distributeInfo }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Distribute, SuccessListEntity_Distribute>()
                     .CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return SubmitDistribute(distributeInfo);

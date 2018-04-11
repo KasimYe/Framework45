@@ -92,7 +92,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                     { "hospitalInfo", hospitalInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Hospital>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return CheckExist(hospitalInfo);
 
@@ -141,7 +141,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Hospital>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetHospitals(hospitalIds, month, currentPageNumber);
 

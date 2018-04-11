@@ -1,0 +1,120 @@
+
+[ERROR] [3]
+[09:49:05,059] [2018-04-08 09:49:05,059]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[09:49:33,625] [2018-04-08 09:49:33,624]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[09:51:51,611] [2018-04-08 09:51:51,611]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[09:53:48,620] [2018-04-08 09:53:48,620]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[09:55:23,600] [2018-04-08 09:55:23,598]
+无法连接到远程服务器
+
+[ERROR] [3]
+[09:55:48,126] [2018-04-08 09:55:48,124]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[09:57:39,825] [2018-04-08 09:57:39,823]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[09:59:00,478] [2018-04-08 09:59:00,477]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[10:02:03,764] [2018-04-08 10:02:03,764]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[ERROR] [3]
+[10:03:02,203] [2018-04-08 10:03:02,203]
+远程服务器返回错误: (500) 内部服务器错误。
+
+[WARN] [3]
+[10:05:31,316] [2018-04-08 10:05:31,307]
+2016-05 : 第1页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:32,321] [2018-04-08 10:05:32,321]
+2016-05 : 第2页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:33,280] [2018-04-08 10:05:33,280]
+2016-05 : 第3页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:34,545] [2018-04-08 10:05:34,545]
+2016-05 : 第4页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:35,625] [2018-04-08 10:05:35,625]
+2016-05 : 第5页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:36,453] [2018-04-08 10:05:36,453]
+2016-05 : 第6页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:37,289] [2018-04-08 10:05:37,288]
+2016-05 : 第7页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:38,100] [2018-04-08 10:05:38,100]
+2016-05 : 第8页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:38,885] [2018-04-08 10:05:38,885]
+2016-05 : 第9页/共176页 成功下载 20 条商品信息.【1】
+
+[WARN] [3]
+[10:05:39,675] [2018-04-08 10:05:39,675]
+2016-05 : 第10页/共176页 成功下载 20 条商品信息.【1】
+
+[INFO] [3]
+[10:19:04,323] [2018-04-08 10:19:04,323]
+{"returnCode":"1","returnMsg":"OK"}
+
+[INFO] [3]
+[10:21:15,967] [2018-04-08 10:21:15,967]
+{"dataList":[{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101854791051365972","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101903596075170492","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101908179794479032","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101911521739496342","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101915304227999432","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101918902825570852","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101935154485598752","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101942683480982802","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101946748551371472","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101950583073181832","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101955916489357162","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null}],"totalRecordCount":11,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[10:21:16,615] [2018-04-08 10:21:16,615]
+{"dataList":[{"goodsId":125217,"materialName":"安瓿","maxPack":0,"companyIdSc":"B705707A-B7E3-4144-BDDE-41D33FBC622E","middlePack":0,"outlook":"5ml:酒石酸美托洛尔5mg与氯化钠45mg","lastUpdateTime":1464108391000,"purchaseType":0,"procurecatalogId":6048,"factor":1,"bidPrice":10.000,"unit":"支","companyNameSc":"辅仁药业集团有限公司","sourceName":"2014年第一批-国家基本药物目录(基药管理)","isUsing":1,"productName":"酒石酸美托洛尔注射液","goodsName":"无","addTime":1464108391000,"medicinemodel":"注射液"}],"totalRecordCount":1,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[WARN] [3]
+[10:21:17,154] [2018-04-08 10:21:17,154]
+2018-04-01 - 2018-04-10 : 第1页/共1页 成功下载 11 条采购订单信息.【1】
+
+[INFO] [3]
+[10:21:17,543] [2018-04-08 10:21:17,543]
+{"dataList":[{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101854791051365972","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101903596075170492","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101908179794479032","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101911521739496342","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101915304227999432","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101754392388426702","orderName":"【Z】杭州市第一人民医院西药库20180408101754","orderType":0,"orderRemarks":"订单","totalDetailCount":6,"orderDetailId":"180408101918902825570852","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":10,"purchasePrice":10.000,"purchaseAmount":100.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154033000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101935154485598752","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101942683480982802","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101946748551371472","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101950583073181832","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null},{"orderId":"180408101814263626408532","orderName":"【J】杭州市第一人民医院西药库20180408101814","orderType":1,"orderRemarks":"订单","totalDetailCount":5,"orderDetailId":"180408101955916489357162","hospitalId":"1F6AC375-C9FD-4401-8F2A-FE68F452385F","hospitalDepartmentId":106,"procurecatalogId":6048,"purchaseCount":20,"purchasePrice":10.000,"purchaseAmount":200.000,"orderdetailState":1,"detailDistributeAddress":"测试地址","submitTime":1523154045000,"orderCustomInfo":null,"companyIdPs":null,"companyNamePs":null,"hospitalName":null}],"totalRecordCount":11,"returnCode":1,"totalPageCount":1,"returnMsg":"业务执行成功","currentPageNumber":1}
+
+[INFO] [3]
+[10:26:11,175] [2018-04-08 10:26:11,175]
+{"returnCode":7,"returnMsg":"业务执行失败","errorList":[{"errorReasonList":[{"errorCode":6,"errorMsg":"数据重复提交【发票代码+发票号码重复】"}],"companyPrimaryKey":"19afdf2e-e26e-4b72-8b83-626f118fd994"},{"errorReasonList":[{"errorCode":6,"errorMsg":"数据重复提交【发票代码+发票号码重复】"}],"companyPrimaryKey":"c562969c-f7d6-4c60-b8ba-53e44a2fc79f"}]}
+
+[INFO] [3]
+[10:27:21,883] [2018-04-08 10:27:21,878]
+{"returnCode":1,"successList":[{"companyPrimaryKey":"20edb868-a829-4953-93f5-eefb62aa1233","ID":"180408102714665466485382"}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[10:32:53,184] [2018-04-08 10:32:53,183]
+{"returnCode":1,"successList":[{"companyPrimaryKey":"c38ad4a1-cf61-452c-a990-764dc6175384","ID":796684}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[10:51:00,950] [2018-04-08 10:51:00,950]
+{"returnCode":1,"successList":[{"companyDistributeId":"29874082","distributeId":"180408105053713915023972"},{"companyDistributeId":"29874083","distributeId":"180408105053713304679622"},{"companyDistributeId":"29874084","distributeId":"180408105053713528873912"}],"returnMsg":"业务执行成功"}
+
+[INFO] [3]
+[11:00:21,170] [2018-04-08 11:00:21,155]
+{"returnCode":1,"successList":[{"companyDistributeId":"29874087","distributeId":"180408110013892992201452"},{"companyDistributeId":"29874086","distributeId":"180408110013893507252622"},{"companyDistributeId":"29874088","distributeId":"180408110013893877640652"},{"companyDistributeId":"29874085","distributeId":"180408110013893768072402"}],"returnMsg":"业务执行成功"}

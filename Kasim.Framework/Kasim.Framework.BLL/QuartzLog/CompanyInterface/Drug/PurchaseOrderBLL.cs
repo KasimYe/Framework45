@@ -156,7 +156,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);                
+                FlashLogger.Info(result);                
                 var list = new ListEntityCommon<Order>().CheckReturnCode(result, out int rcode);
                 if (rcode==0) return GetOrders(startTime, endTime, currentPageNumber);
                
@@ -180,7 +180,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "orderDetailInfo", orderDetailInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Order, Order>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return Read(orderDetailInfo);
 
@@ -204,7 +204,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface.Drug
                     { "orderDetailInfo", orderDetailInfo },
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ReturnEntityCommon<ErrorListEntity_Order, Order>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return Read(orderDetailInfo);
 

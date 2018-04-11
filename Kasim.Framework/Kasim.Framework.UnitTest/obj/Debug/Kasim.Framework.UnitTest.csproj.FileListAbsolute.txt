@@ -129,3 +129,14 @@ D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitT
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\Kasim.Framework.SQLServerDAL.pdb
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
 D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\C1.C1Excel.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\AipSdk.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\Kasim.Framework.SQLServerDAL.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\C1.C1Excel.4.dll
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\Kasim.Framework.Common.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\Kasim.Framework.MySQLDAL.dll.config
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\AipSdk.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\Kasim.Framework.SQLServerDAL.pdb
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\bin\Debug\C1.C1Excel.4.xml
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.UnitTest\obj\Debug\Kasim.Framework.UnitTest.csproj.CopyComplete
