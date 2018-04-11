@@ -68,7 +68,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Pay
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<PayOrderDetail>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetPayOrderDetails(payOrderCode, currentPageNumber);
 
@@ -95,7 +95,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface.Pay
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);                
+                FlashLogger.Info(result);                
                 var list = new ListEntityCommon<PayOrder>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetPayOrders(startTime, endTime, payOrderCodes, currentPageNumber);
 

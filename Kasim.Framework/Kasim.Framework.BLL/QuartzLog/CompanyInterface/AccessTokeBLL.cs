@@ -77,7 +77,7 @@ namespace Kasim.Framework.BLL.QuartzLog.CompanyInterface
                 { "params", pars }
             };
             string result = WebClientHttp.Post(url, postVars);
-            //FlashLogger.Info(result);
+            FlashLogger.Info(result);
             var entity = (AccessTokenEntity)JsonConvert.DeserializeObject(result, typeof(AccessTokenEntity));
             entity.ResultJson = result;
             return entity;

@@ -50,15 +50,25 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
             {
                 MaxId = saleBills[saleBills.Count - 1].SaleBillID;
                 saleBills.ForEach(s => {
-                    FlashLogger.Info(dalSqlServer.InsertBill(s));
-                    if (dalMySql.SetInvalid(s.SaleBillID) > 0)
+                    var insMsg = dalSqlServer.InsertBill(s);                    
+                    if (insMsg.IndexOf("单据写入失败") >-1)
                     {
-                        FlashLogger.Info("写入完毕缓存SaleBillID:"+ s.SaleBillID);
+                        FlashLogger.Error(insMsg);
+                        MaxId = 0;
+                        return;
                     }
                     else
                     {
-                        FlashLogger.Error("写入失败缓存SaleBillID:" + s.SaleBillID);
-                    }
+                        FlashLogger.Info(insMsg);
+                        if (dalMySql.SetInvalid(s.SaleBillID) > 0)
+                        {
+                            FlashLogger.Info("写入完毕缓存SaleBillID:" + s.SaleBillID);
+                        }
+                        else
+                        {
+                            FlashLogger.Error("写入失败缓存SaleBillID:" + s.SaleBillID);
+                        }
+                    }                    
                 });
             }
         }

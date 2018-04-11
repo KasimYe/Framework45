@@ -111,7 +111,7 @@ namespace Kasim.Framework.IBLL.QuartzLog.CompanyInterface
                     { "currentPageNumber", currentPageNumber }
                 };
                 string result = WebClientHttp.Post(url, postVars);
-                //FlashLogger.Info(result);
+                FlashLogger.Info(result);
                 var list = new ListEntityCommon<Company>().CheckReturnCode(result, out int rcode);
                 if (rcode == 0) return GetCompanys(companyIds, month, currentPageNumber);
                               

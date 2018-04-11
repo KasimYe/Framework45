@@ -33,7 +33,7 @@ namespace Kasim.Framework.ZjyxcgWinForm
         private void FrmInvoice_Load(object sender, EventArgs e)
         {
             txtInvoiceCode.Text = "3302172320";
-            txtInvoiceID.Text = "07544959";
+            txtInvoiceID.Text = "07555959";
             dpInvoiceDate.Value = DateTime.Parse("2018-03-13");
             txtBuyRemarks.Text = "购买方是医药公司";
             txtSaleRemark.Text = "销售方是厂家";
