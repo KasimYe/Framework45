@@ -126,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.BLL.dll" size="32256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.BLL.dll" size="33280">
       <assemblyIdentity name="Kasim.Framework.BLL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PRpYu3YwMWzd1jFWfWOjXPead9m+131wetQgqeOE0r4=</dsig:DigestValue>
+        <dsig:DigestValue>iJGaTF4vVpe8RX5UN5eleoWLxs9l7zy7qQroZj5UgoE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -145,19 +145,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8/G9wz1vvYHjWhAU+uzxysHOxLJggOyjwAedyNDoCQw=</dsig:DigestValue>
+        <dsig:DigestValue>zB2N3/6t0PNNi4/i6mzuiRwQE1rKK+oBatfUqI3Q7VM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.Entity.dll" size="36864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.Entity.dll" size="47104">
       <assemblyIdentity name="Kasim.Framework.Entity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uO6YQ2918YnbgUIboVRGchQyJGjWrYd4vniD4toH9Kw=</dsig:DigestValue>
+        <dsig:DigestValue>GSwEDa2PSdafnYpYr8Ye5ueMNy5KmLWFGc8QNmTziCY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -169,19 +169,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+eSNYzylfo8C3/rj5GBh0KxnqjoGrdwXsMhj2y0tsX0=</dsig:DigestValue>
+        <dsig:DigestValue>zoUMsFWC9XZd4GVSrRiFmLsL/6ecctAoEkocglkNSZw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.IBLL.dll" size="9216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.IBLL.dll" size="9728">
       <assemblyIdentity name="Kasim.Framework.IBLL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3N3QpPmYzuOtWk2G2X+l9fdIwQAwqX+cV4bfKmMPve8=</dsig:DigestValue>
+        <dsig:DigestValue>PSf77HAG6zOpnGozPwgy4XmeL1n3ybAegMsJvfh45Cs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -193,43 +193,43 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AxTw27i9jcsn4DOC4lTejeRg4VdGOuOSHgtlMqa24Pg=</dsig:DigestValue>
+        <dsig:DigestValue>W3fhnIODlm5BtdCwfyFThYjbSg0gKoaPezgtt7Wv0Jw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.MySQLDAL.dll" size="47104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.MySQLDAL.dll" size="51200">
       <assemblyIdentity name="Kasim.Framework.MySQLDAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xC1BkCkRIugTy+7n5zDEg7gzsoEHvSnJ6WTRdU10loE=</dsig:DigestValue>
+        <dsig:DigestValue>cwVf5YnNrBsFypPpRmBCYeIcegLNavTLbAzTG8HSLKo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.QuartzLog.exe" size="24032">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.QuartzLog.exe" size="24544">
       <assemblyIdentity name="Kasim.Framework.QuartzLog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>u2Ao5LV05fy34P3m9TngKmLl/mgE3IFL+px8fApvLwo=</dsig:DigestValue>
+        <dsig:DigestValue>XbmF+AhP78c4GDfObSKuuBCz98shjwY+Mz6UbaumvoQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.SQLServerDAL.dll" size="10240">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.SQLServerDAL.dll" size="15360">
       <assemblyIdentity name="Kasim.Framework.SQLServerDAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>I9ajfvWIOK/7HMyCRArSTfBuybhhME+HckQ/0uN2TSY=</dsig:DigestValue>
+        <dsig:DigestValue>ISLiZn/J9zGyelRyEnAx3aq8LdCEMJd0OZ51iNLH0io=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -305,13 +305,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Kasim.Framework.QuartzLog.exe.config" size="3232">
+  <file name="Kasim.Framework.QuartzLog.exe.config" size="3392">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aKeS1afRQR0eijWQOMnV/OLgG5GZGyScYWfhPJeChsY=</dsig:DigestValue>
+      <dsig:DigestValue>jHcb98xuxYCarzdjAbS/J3C5VZUTG0iYvC6KmRH7qfM=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

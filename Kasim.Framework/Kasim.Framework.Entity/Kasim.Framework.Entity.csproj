@@ -76,6 +76,8 @@
     <Compile Include="QuartzLog\Parent\TimeEntity.cs" />
     <Compile Include="QuartzLog\Sale.cs" />
     <Compile Include="QuartzLog\SuccessListEntity_Distribute.cs" />
+    <Compile Include="QuartzLog\SystemOther\SaleBill.cs" />
+    <Compile Include="QuartzLog\SystemOther\SaleBillDetail.cs" />
     <Compile Include="QuartzLog\WareHouse.cs" />
   </ItemGroup>
   <ItemGroup>

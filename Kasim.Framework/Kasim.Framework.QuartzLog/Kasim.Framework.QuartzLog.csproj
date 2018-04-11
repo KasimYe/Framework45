@@ -121,6 +121,8 @@
     <Compile Include="Jobs\SystemOtherJob\ReductSqlService.cs" />
     <Compile Include="Jobs\SystemOtherJob\ExistsImageJob.cs" />
     <Compile Include="Jobs\SystemOtherJob\ExistsImageService.cs" />
+    <Compile Include="Jobs\SystemOtherJob\SubmitSaleCacheJob.cs" />
+    <Compile Include="Jobs\SystemOtherJob\SubmitSaleCacheService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceRunner.cs" />
