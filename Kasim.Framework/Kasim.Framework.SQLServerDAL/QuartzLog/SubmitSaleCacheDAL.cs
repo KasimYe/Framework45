@@ -119,7 +119,8 @@ namespace Kasim.Framework.SQLServerDAL.QuartzLog
                         }
                         catch (Exception ex)
                         {
-                            reslut = ex.Message;
+                            Tran.Rollback();
+                            reslut ="单据写入失败:\r\n"+ ex.Message;
                         }
                         finally
                         {
