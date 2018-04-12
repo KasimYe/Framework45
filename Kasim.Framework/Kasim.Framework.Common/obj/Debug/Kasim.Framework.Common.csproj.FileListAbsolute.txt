@@ -31,7 +31,6 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\Kasim.Framework.Common.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\log4net.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\log4net.xml
-D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csprojResolveAssemblyReference.cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.PopMsg.resources
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csproj.GenerateResource.Cache
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csproj.CoreCompileInputs.cache
@@ -55,3 +54,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.Form1.resources
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.dll.licenses
+D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csprojResolveAssemblyReference.cache

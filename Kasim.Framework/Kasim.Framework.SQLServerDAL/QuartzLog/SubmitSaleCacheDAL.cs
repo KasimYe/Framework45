@@ -77,10 +77,10 @@ namespace Kasim.Framework.SQLServerDAL.QuartzLog
                             Comm.ExecuteNonQuery();
                             reslut = "成功写入单据号:" + Comm.Parameters["@FormNumber"].Value.ToString();
                             var saleBillId = Convert.ToInt32(Comm.Parameters["@FID"].Value);
-                            decimal zkSum = 0;
-                            Comm.CommandText = "InsertDetail";
+                            decimal zkSum = 0;                            
                             s.SaleBillDetails.ForEach(d =>
                             {
+                                Comm.CommandText = "InsertDetail";
                                 Comm.Parameters.Clear();
                                 Comm.Parameters.Add("@FormTypeID", SqlDbType.Int).Value = s.FormTypeID;
                                 Comm.Parameters.Add("@FID", SqlDbType.Int).Value = saleBillId;
@@ -100,6 +100,13 @@ namespace Kasim.Framework.SQLServerDAL.QuartzLog
                                 {
                                     zkSum += d.Quantity3 * d.TaxPrice;
                                 }
+                                //Comm.CommandText = "UpdateSaleClientPrice";
+                                //Comm.Parameters.Clear();
+                                //Comm.Parameters.Add("@StoreID", SqlDbType.Int).Value = s.StoreID;
+                                //Comm.Parameters.Add("@ClientID", SqlDbType.Int).Value = s.ClientID;
+                                //Comm.Parameters.Add("@PID", SqlDbType.Int).Value = d.PID;
+                                //Comm.Parameters.Add("@SalePrice", SqlDbType.Money).Value = d.TaxPrice;
+                                //var chid= Comm.ExecuteNonQuery();
                             });
                             if (zkSum != 0)
                             {

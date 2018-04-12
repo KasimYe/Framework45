@@ -66,6 +66,7 @@
     <Compile Include="QuartzLog\CronBLL.cs" />
     <Compile Include="QuartzLog\ListEntityCommon.cs" />
     <Compile Include="QuartzLog\ReturnEntityCommon.cs" />
+    <Compile Include="QuartzLog\SystemOther\InventoryCheckBLL.cs" />
     <Compile Include="QuartzLog\SystemOther\ReductSqlBLL.cs" />
     <Compile Include="QuartzLog\SystemOther\SubmitSaleCacheBLL.cs" />
   </ItemGroup>
