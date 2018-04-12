@@ -42,9 +42,16 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
         ISubmitSaleCacheDAL dalMySql = new MySQLDAL.QuartzLog.SubmitSaleCacheDAL();
         ISubmitSaleCacheDAL dalSqlServer = new SQLServerDAL.QuartzLog.SubmitSaleCacheDAL();
         public static int MaxId = 0;
+        /// <summary>
+        /// 全局线程锁
+        /// </summary>
+        public static bool ThreadLocked = false;
         public void Submit()
         {
-            FlashLogger.Info("MaxId:" + MaxId.ToString());
+            if (ThreadLocked) return;
+            ThreadLocked = true;
+            FlashLogger.Warn("$$$$$$$$$$$$$$$$【线程锁开启】$$$$$$$$$$$$$$$$");
+            FlashLogger.Info(string.Format("MaxId:{0}", MaxId));
             List<SaleBill> saleBills = dalMySql.GetTopFive(MaxId);
             if (saleBills.Count > 0)
             {
@@ -55,6 +62,8 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
                     {
                         FlashLogger.Error(insMsg);
                         MaxId = 0;
+                        ThreadLocked = false;
+                        FlashLogger.Warn("$$$$$$$$$$$$$$$$【线程锁关闭】$$$$$$$$$$$$$$$$");
                         return;
                     }
                     else
@@ -70,6 +79,8 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
                         }
                     }                    
                 });
+                ThreadLocked = false;
+                FlashLogger.Warn("$$$$$$$$$$$$$$$$【线程锁关闭】$$$$$$$$$$$$$$$$");
             }
         }
     }
