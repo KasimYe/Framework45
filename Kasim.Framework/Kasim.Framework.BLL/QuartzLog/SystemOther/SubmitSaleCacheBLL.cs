@@ -48,13 +48,13 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
         public static bool ThreadLocked = false;
         public void Submit()
         {
-            if (ThreadLocked) return;
-            ThreadLocked = true;
-            FlashLogger.Warn("$$$$$$$$$$$$$$$$【线程锁开启】$$$$$$$$$$$$$$$$");
+            if (ThreadLocked) return;            
             FlashLogger.Info(string.Format("MaxId:{0}", MaxId));
             List<SaleBill> saleBills = dalMySql.GetTopFive(MaxId);
             if (saleBills.Count > 0)
             {
+                ThreadLocked = true;
+                FlashLogger.Warn("$$$ [ ThreadLocked ] $$$");
                 MaxId = saleBills[saleBills.Count - 1].SaleBillID;
                 saleBills.ForEach(s => {
                     var insMsg = dalSqlServer.InsertBill(s);                    
@@ -63,7 +63,7 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
                         FlashLogger.Error(insMsg);
                         MaxId = 0;
                         ThreadLocked = false;
-                        FlashLogger.Warn("$$$$$$$$$$$$$$$$【线程锁关闭】$$$$$$$$$$$$$$$$");
+                        FlashLogger.Warn("$$$ [ ThreadUnLocked ] $$$");
                         return;
                     }
                     else
@@ -71,16 +71,20 @@ namespace Kasim.Framework.BLL.QuartzLog.SystemOther
                         FlashLogger.Info(insMsg);
                         if (dalMySql.SetInvalid(s.SaleBillID) > 0)
                         {
-                            FlashLogger.Info("写入完毕缓存SaleBillID:" + s.SaleBillID);
+                            FlashLogger.Info("CacheID:" + s.SaleBillID);
                         }
                         else
                         {
-                            FlashLogger.Error("写入失败缓存SaleBillID:" + s.SaleBillID);
+                            FlashLogger.Error("ErrorCacheID:" + s.SaleBillID);
                         }
                     }                    
                 });
                 ThreadLocked = false;
-                FlashLogger.Warn("$$$$$$$$$$$$$$$$【线程锁关闭】$$$$$$$$$$$$$$$$");
+                FlashLogger.Warn("$$$ [ ThreadUnLocked ] $$$");
+            }
+            else
+            {
+                FlashLogger.Warn("$$$ [ Heartbeat - ThreadUnLocked ] $$$");
             }
         }
     }

@@ -120,6 +120,8 @@
     <Compile Include="Jobs\OrderJob\UpdateOrderService.cs" />
     <Compile Include="Jobs\ProcurecatalogJob\UpdateProcurecatalogJob.cs" />
     <Compile Include="Jobs\ProcurecatalogJob\UpdateProcurecatalogService.cs" />
+    <Compile Include="Jobs\SystemOtherJob\InventoryCheckJob.cs" />
+    <Compile Include="Jobs\SystemOtherJob\InventoryCheckService.cs" />
     <Compile Include="Jobs\SystemOtherJob\ReductSqlJob.cs" />
     <Compile Include="Jobs\SystemOtherJob\ReductSqlService.cs" />
     <Compile Include="Jobs\SystemOtherJob\ExistsImageJob.cs" />
