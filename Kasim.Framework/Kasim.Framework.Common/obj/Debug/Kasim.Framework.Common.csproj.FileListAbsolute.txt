@@ -55,3 +55,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\bin\Debug\
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.Form1.resources
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.dll.licenses
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.Common\obj\Debug\Kasim.Framework.Common.csprojResolveAssemblyReference.cache

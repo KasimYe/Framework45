@@ -9,3 +9,4 @@ D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Deb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.dll
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.pdb
 D:\Kasim\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.csprojResolveAssemblyReference.cache
+D:\KasimWorks\GitHub\Framework\Framework45\Kasim.Framework\Kasim.Framework.SQLiteDAL\obj\Debug\Kasim.Framework.SQLiteDAL.csprojResolveAssemblyReference.cache
