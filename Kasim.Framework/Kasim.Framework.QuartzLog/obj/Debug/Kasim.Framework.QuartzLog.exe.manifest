@@ -134,7 +134,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hhIuQcV6y/MSoVVLb76MAlotfel8+aql8a/fbVayoOo=</dsig:DigestValue>
+        <dsig:DigestValue>KtRZb3veuMdfiHxBs5QPbzhvZL6wh+afKnnb1q8mRGU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -182,7 +182,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fSyQnYoXZDPmTuOHu0FI6NOC4m1nOBt/q9uZyZRp5gg=</dsig:DigestValue>
+        <dsig:DigestValue>5LAVqSG/32NhKkMOfyyVThILPRsUC/wkbQpsFRyCydQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -211,14 +211,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.QuartzLog.exe" size="92640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasim.Framework.QuartzLog.exe" size="93152">
       <assemblyIdentity name="Kasim.Framework.QuartzLog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uYEnJtjWMnYeLkrzBUI0OgItBOlMksweHG32Lr7pRLI=</dsig:DigestValue>
+        <dsig:DigestValue>4yGFGaSr67B9Q/nPkrJ9W67BSco62RaxkSetVRt0HmY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
